@@ -1,7 +1,6 @@
 from flask import *
 from flask_bootstrap import Bootstrap
 from MusicParser import MusicParser
-from pprint import pprint
 
 # Initialize Flask Object
 app = Flask(__name__)
