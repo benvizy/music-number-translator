@@ -1,0 +1,35 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}Number Translator{% endblock %}
+
+{% block styles %}
+{{ super() }}
+<link rel="stylesheet" href="static/css/styles.css">
+{% endblock %}
+
+
+{% block content %}
+
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+{% for message in messages %}
+<p style="color: #ff0000"> {{message}} </p>
+{% endfor %}
+{% endif %}
+{% endwith %}
+
+<h1>Behold!  Every Key!</h1>
+
+{% for key in notes.keys(): %}
+    <h1>{{key}}</h1>
+    {% for row in notes[key]: %}
+        <div class="container">
+            <h2 class = "first-cell">{{row[0].replace('t','♭')}}</h2>
+            {% for i in range(1,30) %}
+                <h5>{{row[i]}}</h5>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endfor %}
+
+{% endblock %}

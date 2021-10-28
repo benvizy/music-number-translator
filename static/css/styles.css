@@ -1,0 +1,32 @@
+body {
+    background: #FFFBC8;
+    padding: 50px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    padding: 50px 400px 50px 400px;
+}
+
+h2 {
+    padding: 0px 30px 0px 0px
+}
+
+h5 {
+    padding: 20px 0px 0px 0px
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 70px repeat(29, 30px);
+    gap: 5px;
+}
+
+.first-cell {
+    grid-column: 1;
+}
+
+.next-columns {
+    grid-column-start: 2;
+}
