@@ -12,11 +12,10 @@ class MusicParser:
             'A': ['A', 'B', 'C#', 'D', 'E', 'F#', 'G#'],
             'E': ['E', 'F#', 'G#', 'A', 'B', 'C#', 'D#'],
             'B': ['B', 'C#', 'D#', 'E', 'F#', 'G#', 'A#'],
-            'Gt': ['Gt', 'At', 'Bt', 'Ct', 'Dt', 'Et', 'F'],
+            'Gt': ['Gt', 'At', 'Bt', 'B', 'Dt', 'Et', 'F'],
             'Dt': ['Dt', 'Et', 'F', 'G', 'At', 'Bt', 'C'],
             'At': ['At', 'Bt', 'C', 'D', 'Et', 'F', 'G'],
             'Et': ['Et', 'F', 'G', 'A', 'Bt', 'C', 'D'],
-            'Gt': ['Gt', 'A', 'B', 'C', 'D', 'E', 'F'],
             'F': ['F', 'G', 'A', 'Bt', 'C', 'D', 'E']
         }
         self.rom_dict = {
