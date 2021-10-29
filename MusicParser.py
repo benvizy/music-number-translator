@@ -5,7 +5,7 @@ class MusicParser:
         self.sharp_notes = ['A', 'A#', 'B', 'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#']
 
         self.scale_dict = {
-            'Bt': ['Bt', 'C', 'D', 'E', 'F', 'G', 'A'],
+            'Bt': ['Bt', 'C', 'D', 'Et', 'F', 'G', 'A'],
             'C': ['C', 'D', 'E', 'F', 'G', 'A', 'B'],
             'G': ['G', 'A', 'B', 'C', 'D', 'E', 'F#'],
             'D': ['D', 'E', 'F#', 'G', 'A', 'B', 'C#'],
@@ -13,8 +13,8 @@ class MusicParser:
             'E': ['E', 'F#', 'G#', 'A', 'B', 'C#', 'D#'],
             'B': ['B', 'C#', 'D#', 'E', 'F#', 'G#', 'A#'],
             'Gt': ['Gt', 'At', 'Bt', 'B', 'Dt', 'Et', 'F'],
-            'Dt': ['Dt', 'Et', 'F', 'G', 'At', 'Bt', 'C'],
-            'At': ['At', 'Bt', 'C', 'D', 'Et', 'F', 'G'],
+            'Dt': ['Dt', 'Et', 'F', 'Gt', 'At', 'Bt', 'C'],
+            'At': ['At', 'Bt', 'C', 'Dt', 'Et', 'F', 'G'],
             'Et': ['Et', 'F', 'G', 'A', 'Bt', 'C', 'D'],
             'F': ['F', 'G', 'A', 'Bt', 'C', 'D', 'E']
         }
