@@ -16,7 +16,14 @@ class MusicParser:
             'Dt': ['Dt', 'Et', 'F', 'Gt', 'At', 'Bt', 'C'],
             'At': ['At', 'Bt', 'C', 'Dt', 'Et', 'F', 'G'],
             'Et': ['Et', 'F', 'G', 'A', 'Bt', 'C', 'D'],
-            'F': ['F', 'G', 'A', 'Bt', 'C', 'D', 'E']
+            'F': ['F', 'G', 'A', 'Bt', 'C', 'D', 'E'],
+            'A#': ['A#', 'C', 'D', 'D#', 'F', 'G', 'A'],
+            'B#': ['C', 'D', 'E', 'F', 'G', 'A', 'B'],
+            'C#': ['C#', 'D#', 'F', 'F#', 'G#', 'A#', 'C'],
+            'D#': ['D#', 'F', 'G', 'G#', 'A#', 'C', 'D'],
+            'E#': ['F', 'G', 'A', 'A#', 'C', 'D', 'E'],
+            'F#': ['F#', 'G#', 'A#', 'B', 'C#', 'D#', 'F'],
+            'G#': ['G#', 'A#', 'C', 'C#', 'D#', 'F', 'G']
         }
         self.rom_dict = {
             'I': '1',
@@ -34,14 +41,27 @@ class MusicParser:
         flat = False
         sharp = False
 
-        if self.flat in key:
-            key = key.replace(self.flat, 't')
+        # Replaces a flat symbol with a more easily workable t
+        key = key.replace(self.flat, 't')
 
-        if num == '' or num == ' ' or num == None:
+        # Weird Cases
+        if key == 'D#' and num == 't7':
+            return 'C#'
+        elif key == 'G#' and num == 't7':
+            return 'F#'
+        elif key == 'A#' and num == 't7':
+            return 'G#'
+
+
+        # We are fine with blank spaces.
+        if num == '' or num == ' ' or num is None:
             return num
 
+        # Convert nines to twos so the list algorithm works.
         if '9' in num:
             num = num.replace('9', '2')
+
+        # Find the number.  It's either in front of the sharp or behind the flat! Or it's just there!
         if '#' in num:
             num = int(num[-1])
             sharp = True
@@ -51,26 +71,25 @@ class MusicParser:
         else:
             num = int(num)
 
-        try:
-            note = self.scale_dict[key][num - 1]
-        except KeyError:
-            if key == "G#":
-                note = self.scale_dict['At'][num - 1]
-            elif key == "C#":
-                note = self.scale_dict['Dt'][num - 1]
-            elif key == "D#":
-                note = self.scale_dict['Et'][num - 1]
-            elif key == "F#":
-                note = self.scale_dict['Gt'][num - 1]
-            elif key == "A#":
-                note = self.scale_dict['Bt'][num - 1]
-            elif key == "B#":
-                note = self.scale_dict['C'][num - 1]
-            elif key == "G#":
-                note = self.scale_dict['At'][num - 1]
+        # Find the note in the key you are in :)
+        note = self.scale_dict[key][num - 1]
 
+        ## This Chunk of Code is only if you never want to mess around with keys that "don't exist"
+        # except KeyError:
+        #     if key == "G#":
+        #         note = self.scale_dict['At'][num - 1]
+        #     elif key == "C#":
+        #         note = self.scale_dict['Dt'][num - 1]
+        #     elif key == "D#":
+        #         note = self.scale_dict['Et'][num - 1]
+        #     elif key == "F#":
+        #         note = self.scale_dict['Gt'][num - 1]
+        #     elif key == "A#":
+        #         note = self.scale_dict['Bt'][num - 1]
+        #     elif key == "B#":
+        #         note = self.scale_dict['C'][num - 1]
 
-
+        # Code to try and address when notes should be sharp or flat
         if flat:
             note = note + 't'
         if sharp:
@@ -88,6 +107,7 @@ class MusicParser:
                 note = 'A'
             else:
                 note = self.sharp_notes[self.sharp_notes.index(ref) + 1]
+
         if '##' in note:
             ref = note[:2]
             if note == 'G##':
@@ -112,6 +132,8 @@ class MusicParser:
         return note
 
     def rom_to_key(self, key, rom):
+        print(key)
+        print(rom)
         if rom == '':
             return key
         elif 't' in rom:

@@ -24,317 +24,1258 @@
 <ul>Use 't' for flats: Ex: t7 for a flat 7</ul>
 <ul>Use '#' for flats: Ex: #7 for a sharp 7</ul>
 
+<form class="container" action="{{ url_for('boxes_one', grid_letter='a') }}" method="post">
+    <input class="first-cell" value="VIIt" type="text" id="a-chord-1" name="a-chord-1">
+    <input type="text" class="next-columns" value="3" id="a-num-1-1" name="a-num-1-1">
+    <input type="text" value="t7" id="a-num-1-2" name="a-num-1-2">
+    <input type="text" value="" id="a-num-1-3" name="a-num-1-3">
+    <input type="text" value="3" id="a-num-1-4" name="a-num-1-4">
+    <input type="text" value="t7" id="a-num-1-5" name="a-num-1-5">
+    <input type="text" value="9" id="a-num-1-6" name="a-num-1-6">
+    <input type="text" value="" id="a-num-1-7" name="a-num-1-7">
+    <input type="text" value="3" id="a-num-1-8" name="a-num-1-8">
+    <input type="text" value="6" id="a-num-1-9" name="a-num-1-9">
+    <input type="text" value="t7" id="a-num-1-10" name="a-num-1-10">
+    <input type="text" value="9" id="a-num-1-11" name="a-num-1-11">
+    <input type="text" value="" id="a-num-1-12" name="a-num-1-12">
+    <input type="text" value="3" id="a-num-1-13" name="a-num-1-13">
+    <input type="text" value="t7" id="a-num-1-14" name="a-num-1-14">
+    <input type="text" value="9" id="a-num-1-15" name="a-num-1-15">
+    <input type="text" value="#4" id="a-num-1-16" name="a-num-1-16">
+    <input type="text" value="" id="a-num-1-17" name="a-num-1-17">
+    <input type="text" value="3" id="a-num-1-18" name="a-num-1-18">
+    <input type="text" value="t7" id="a-num-1-19" name="a-num-1-19">
+    <input type="text" value="9" id="a-num-1-20" name="a-num-1-20">
+    <input type="text" value="#4" id="a-num-1-21" name="a-num-1-21">
+    <input type="text" value="6" id="a-num-1-22" name="a-num-1-22">
+    <input type="text" value="" id="a-num-1-23" name="a-num-1-23">
+    <input type="text" value="3" id="a-num-1-24" name="a-num-1-24">
+    <input type="text" value="6" id="a-num-1-25" name="a-num-1-25">
+    <input type="text" value="7" id="a-num-1-26" name="a-num-1-26">
+    <input type="text" value="9" id="a-num-1-27" name="a-num-1-27">
+    <input type="text" value="#4" id="a-num-1-28" name="a-num-1-28">
+    <input type="text" value="6" id="a-num-1-29" name="a-num-1-29">
 
-<form class="container" action="{{ url_for('home')}}" method="post">
-    <input class="first-cell" value="VIIt" type="text" id="chord-1" name="chord-1">
-    <input type="text" class="next-columns" value="3" id="num-1-1" name="num-1-1">
-    <input type="text" value="t7" id="num-1-2" name="num-1-2">
-    <input type="text" value="" id="num-1-3" name="num-1-3">
-    <input type="text" value="3" id="num-1-4" name="num-1-4">
-    <input type="text" value="t7" id="num-1-5" name="num-1-5">
-    <input type="text" value="9" id="num-1-6" name="num-1-6">
-    <input type="text" value="" id="num-1-7" name="num-1-7">
-    <input type="text" value="3" id="num-1-8" name="num-1-8">
-    <input type="text" value="6" id="num-1-9" name="num-1-9">
-    <input type="text" value="t7" id="num-1-10" name="num-1-10">
-    <input type="text" value="9" id="num-1-11" name="num-1-11">
-    <input type="text" value="" id="num-1-12" name="num-1-12">
-    <input type="text" value="3" id="num-1-13" name="num-1-13">
-    <input type="text" value="t7" id="num-1-14" name="num-1-14">
-    <input type="text" value="9" id="num-1-15" name="num-1-15">
-    <input type="text" value="#4" id="num-1-16" name="num-1-16">
-    <input type="text" value="" id="num-1-17" name="num-1-17">
-    <input type="text" value="3" id="num-1-18" name="num-1-18">
-    <input type="text" value="t7" id="num-1-19" name="num-1-19">
-    <input type="text" value="9" id="num-1-20" name="num-1-20">
-    <input type="text" value="#4" id="num-1-21" name="num-1-21">
-    <input type="text" value="6" id="num-1-22" name="num-1-22">
-    <input type="text" value="" id="num-1-23" name="num-1-23">
-    <input type="text" value="3" id="num-1-24" name="num-1-24">
-    <input type="text" value="6" id="num-1-25" name="num-1-25">
-    <input type="text" value="7" id="num-1-26" name="num-1-26">
-    <input type="text" value="9" id="num-1-27" name="num-1-27">
-    <input type="text" value="#4" id="num-1-28" name="num-1-28">
-    <input type="text" value="6" id="num-1-29" name="num-1-29">
+    <input class="first-cell" value="VI" type="text" id="a-chord-2" name="a-chord-2">
+    <input type="text" class="next-columns" value="3" id="a-num-2-1" name="a-num-2-1">
+    <input type="text" value="t7" id="a-num-2-2" name="a-num-2-2">
+    <input type="text" value="" id="a-num-2-3" name="a-num-2-3">
+    <input type="text" value="3" id="a-num-2-4" name="a-num-2-4">
+    <input type="text" value="t7" id="a-num-2-5" name="a-num-2-5">
+    <input type="text" value="#9" id="a-num-2-6" name="a-num-2-6">
+    <input type="text" value="" id="a-num-2-7" name="a-num-2-7">
+    <input type="text" value="3" id="a-num-2-8" name="a-num-2-8">
+    <input type="text" value="t6" id="a-num-2-9" name="a-num-2-9">
+    <input type="text" value="t7" id="a-num-2-10" name="a-num-2-10">
+    <input type="text" value="#9" id="a-num-2-11" name="a-num-2-11">
+    <input type="text" value="" id="a-num-2-12" name="a-num-2-12">
+    <input type="text" value="3" id="a-num-2-13" name="a-num-2-13">
+    <input type="text" value="t7" id="a-num-2-14" name="a-num-2-14">
+    <input type="text" value="#9" id="a-num-2-15" name="a-num-2-15">
+    <input type="text" value="t6" id="a-num-2-16" name="a-num-2-16">
+    <input type="text" value="" id="a-num-2-17" name="a-num-2-17">
+    <input type="text" value="3" id="a-num-2-18" name="a-num-2-18">
+    <input type="text" value="t7" id="a-num-2-19" name="a-num-2-19">
+    <input type="text" value="t9" id="a-num-2-20" name="a-num-2-20">
+    <input type="text" value="t5" id="a-num-2-21" name="a-num-2-21">
+    <input type="text" value="t7" id="a-num-2-22" name="a-num-2-22">
+    <input type="text" value="" id="a-num-2-23" name="a-num-2-23">
+    <input type="text" value="3" id="a-num-2-24" name="a-num-2-24">
+    <input type="text" value="t6" id="a-num-2-25" name="a-num-2-25">
+    <input type="text" value="t7" id="a-num-2-26" name="a-num-2-26">
+    <input type="text" value="t9" id="a-num-2-27" name="a-num-2-27">
+    <input type="text" value="t5" id="a-num-2-28" name="a-num-2-28">
+    <input type="text" value="7" id="a-num-2-29" name="a-num-2-29">
 
-    <input class="first-cell" value="VI" type="text" id="chord-2" name="chord-2">
-    <input type="text" class="next-columns" value="3" id="num-2-1" name="num-2-1">
-    <input type="text" value="t7" id="num-2-2" name="num-2-2">
-    <input type="text" value="" id="num-2-3" name="num-2-3">
-    <input type="text" value="3" id="num-2-4" name="num-2-4">
-    <input type="text" value="t7" id="num-2-5" name="num-2-5">
-    <input type="text" value="#9" id="num-2-6" name="num-2-6">
-    <input type="text" value="" id="num-2-7" name="num-2-7">
-    <input type="text" value="3" id="num-2-8" name="num-2-8">
-    <input type="text" value="t6" id="num-2-9" name="num-2-9">
-    <input type="text" value="t7" id="num-2-10" name="num-2-10">
-    <input type="text" value="#9" id="num-2-11" name="num-2-11">
-    <input type="text" value="" id="num-2-12" name="num-2-12">
-    <input type="text" value="3" id="num-2-13" name="num-2-13">
-    <input type="text" value="t7" id="num-2-14" name="num-2-14">
-    <input type="text" value="#9" id="num-2-15" name="num-2-15">
-    <input type="text" value="t6" id="num-2-16" name="num-2-16">
-    <input type="text" value="" id="num-2-17" name="num-2-17">
-    <input type="text" value="3" id="num-2-18" name="num-2-18">
-    <input type="text" value="t7" id="num-2-19" name="num-2-19">
-    <input type="text" value="t9" id="num-2-20" name="num-2-20">
-    <input type="text" value="t5" id="num-2-21" name="num-2-21">
-    <input type="text" value="t7" id="num-2-22" name="num-2-22">
-    <input type="text" value="" id="num-2-23" name="num-2-23">
-    <input type="text" value="3" id="num-2-24" name="num-2-24">
-    <input type="text" value="t6" id="num-2-25" name="num-2-25">
-    <input type="text" value="t7" id="num-2-26" name="num-2-26">
-    <input type="text" value="t9" id="num-2-27" name="num-2-27">
-    <input type="text" value="t5" id="num-2-28" name="num-2-28">
-    <input type="text" value="7" id="num-2-29" name="num-2-29">
+    <input class="first-cell" value="II" type="text" id="a-chord-3" name="a-chord-3">
+    <input type="text" class="a-next-columns" value="t7" id="a-num-3-1" name="a-num-3-1">
+    <input type="text" value="t3" id="a-num-3-2" name="a-num-3-2">
+    <input type="text" value="" id="a-num-3-3" name="a-num-3-3">
+    <input type="text" value="t7" id="a-num-3-4" name="a-num-3-4">
+    <input type="text" value="t3" id="a-num-3-5" name="a-num-3-5">
+    <input type="text" value="5" id="a-num-3-6" name="a-num-3-6">
+    <input type="text" value="" id="a-num-3-7" name="a-num-3-7">
+    <input type="text" value="t7" id="a-num-3-8" name="a-num-3-8">
+    <input type="text" value="9" id="a-num-3-9" name="a-num-3-9">
+    <input type="text" value="t3" id="a-num-3-10" name="a-num-3-10">
+    <input type="text" value="6" id="a-num-3-11" name="a-num-3-11">
+    <input type="text" value="" id="a-num-3-12" name="a-num-3-12">
+    <input type="text" value="t7" id="a-num-3-13" name="a-num-3-13">
+    <input type="text" value="t3" id="a-num-3-14" name="a-num-3-14">
+    <input type="text" value="6" id="a-num-3-15" name="a-num-3-15">
+    <input type="text" value="9" id="a-num-3-16" name="a-num-3-16">
+    <input type="text" value="" id="a-num-3-17" name="a-num-3-17">
+    <input type="text" value="t7" id="a-num-3-18" name="a-num-3-18">
+    <input type="text" value="t3" id="a-num-3-19" name="a-num-3-19">
+    <input type="text" value="6" id="a-num-3-20" name="a-num-3-20">
+    <input type="text" value="9" id="a-num-3-21" name="a-num-3-21">
+    <input type="text" value="4" id="a-num-3-22" name="a-num-3-22">
+    <input type="text" value="" id="a-num-3-23" name="a-num-3-23">
+    <input type="text" value="7" id="a-num-3-24" name="a-num-3-24">
+    <input type="text" value="9" id="a-num-3-25" name="a-num-3-25">
+    <input type="text" value="3" id="a-num-3-26" name="a-num-3-26">
+    <input type="text" value="5" id="a-num-3-27" name="a-num-3-27">
+    <input type="text" value="9" id="a-num-3-28" name="a-num-3-28">
+    <input type="text" value="4" id="a-num-3-29" name="a-num-3-29">
 
-    <input class="first-cell" value="II" type="text" id="chord-3" name="chord-3">
-    <input type="text" class="next-columns" value="t7" id="num-3-1" name="num-3-1">
-    <input type="text" value="t3" id="num-3-2" name="num-3-2">
-    <input type="text" value="" id="num-3-3" name="num-3-3">
-    <input type="text" value="t7" id="num-3-4" name="num-3-4">
-    <input type="text" value="t3" id="num-3-5" name="num-3-5">
-    <input type="text" value="5" id="num-3-6" name="num-3-6">
-    <input type="text" value="" id="num-3-7" name="num-3-7">
-    <input type="text" value="t7" id="num-3-8" name="num-3-8">
-    <input type="text" value="9" id="num-3-9" name="num-3-9">
-    <input type="text" value="t3" id="num-3-10" name="num-3-10">
-    <input type="text" value="6" id="num-3-11" name="num-3-11">
-    <input type="text" value="" id="num-3-12" name="num-3-12">
-    <input type="text" value="t7" id="num-3-13" name="num-3-13">
-    <input type="text" value="t3" id="num-3-14" name="num-3-14">
-    <input type="text" value="6" id="num-3-15" name="num-3-15">
-    <input type="text" value="9" id="num-3-16" name="num-3-16">
-    <input type="text" value="" id="num-3-17" name="num-3-17">
-    <input type="text" value="t7" id="num-3-18" name="num-3-18">
-    <input type="text" value="t3" id="num-3-19" name="num-3-19">
-    <input type="text" value="6" id="num-3-20" name="num-3-20">
-    <input type="text" value="9" id="num-3-21" name="num-3-21">
-    <input type="text" value="4" id="num-3-22" name="num-3-22">
-    <input type="text" value="" id="num-3-23" name="num-3-23">
-    <input type="text" value="7" id="num-3-24" name="num-3-24">
-    <input type="text" value="9" id="num-3-25" name="num-3-25">
-    <input type="text" value="3" id="num-3-26" name="num-3-26">
-    <input type="text" value="5" id="num-3-27" name="num-3-27">
-    <input type="text" value="9" id="num-3-28" name="num-3-28">
-    <input type="text" value="4" id="num-3-29" name="num-3-29">
+    <input class="first-cell" value="V" type="text" id="a-chord-4" name="a-chord-4">
+    <input type="text" class="next-columns" value="3" id="a-num-4-1" name="a-num-4-1">
+    <input type="text" value="t7" id="a-num-4-2" name="a-num-4-2">
+    <input type="text" value="" id="a-num-4-3" name="a-num-4-3">
+    <input type="text" value="3" id="a-num-4-4" name="a-num-4-4">
+    <input type="text" value="t7" id="a-num-4-5" name="a-num-4-5">
+    <input type="text" value="t9" id="a-num-4-6" name="a-num-4-6">
+    <input type="text" value="" id="a-num-4-7" name="a-num-4-7">
+    <input type="text" value="3" id="a-num-4-8" name="a-num-4-8">
+    <input type="text" value="6" id="a-num-4-9" name="a-num-4-9">
+    <input type="text" value="7" id="a-num-4-10" name="a-num-4-10">
+    <input type="text" value="t9" id="a-num-4-11" name="a-num-4-11">
+    <input type="text" value="" id="a-num-4-12" name="a-num-4-12">
+    <input type="text" value="3" id="a-num-4-13" name="a-num-4-13">
+    <input type="text" value="t7" id="a-num-4-14" name="a-num-4-14">
+    <input type="text" value="t9" id="a-num-4-15" name="a-num-4-15">
+    <input type="text" value="#4" id="a-num-4-16" name="a-num-4-16">
+    <input type="text" value="" id="a-num-4-17" name="a-num-4-17">
+    <input type="text" value="3" id="a-num-4-18" name="a-num-4-18">
+    <input type="text" value="t7" id="a-num-4-19" name="a-num-4-19">
+    <input type="text" value="t9" id="a-num-4-20" name="a-num-4-20">
+    <input type="text" value="#4" id="a-num-4-21" name="a-num-4-21">
+    <input type="text" value="t7" id="a-num-4-22" name="a-num-4-22">
+    <input type="text" value="" id="a-num-4-23" name="a-num-4-23">
+    <input type="text" value="3" id="a-num-4-24" name="a-num-4-24">
+    <input type="text" value="#4" id="a-num-4-25" name="a-num-4-25">
+    <input type="text" value="t7" id="a-num-4-26" name="a-num-4-26">
+    <input type="text" value="t9" id="a-num-4-27" name="a-num-4-27">
+    <input type="text" value="#4" id="a-num-4-28" name="a-num-4-28">
+    <input type="text" value="t7" id="a-num-4-29" name="a-num-4-29">
 
-    <input class="first-cell" value="V" type="text" id="chord-4" name="chord-4">
-    <input type="text" class="next-columns" value="3" id="num-4-1" name="num-4-1">
-    <input type="text" value="t7" id="num-4-2" name="num-4-2">
-    <input type="text" value="" id="num-4-3" name="num-4-3">
-    <input type="text" value="3" id="num-4-4" name="num-4-4">
-    <input type="text" value="t7" id="num-4-5" name="num-4-5">
-    <input type="text" value="t9" id="num-4-6" name="num-4-6">
-    <input type="text" value="" id="num-4-7" name="num-4-7">
-    <input type="text" value="3" id="num-4-8" name="num-4-8">
-    <input type="text" value="6" id="num-4-9" name="num-4-9">
-    <input type="text" value="7" id="num-4-10" name="num-4-10">
-    <input type="text" value="t9" id="num-4-11" name="num-4-11">
-    <input type="text" value="" id="num-4-12" name="num-4-12">
-    <input type="text" value="3" id="num-4-13" name="num-4-13">
-    <input type="text" value="t7" id="num-4-14" name="num-4-14">
-    <input type="text" value="t9" id="num-4-15" name="num-4-15">
-    <input type="text" value="#4" id="num-4-16" name="num-4-16">
-    <input type="text" value="" id="num-4-17" name="num-4-17">
-    <input type="text" value="3" id="num-4-18" name="num-4-18">
-    <input type="text" value="t7" id="num-4-19" name="num-4-19">
-    <input type="text" value="t9" id="num-4-20" name="num-4-20">
-    <input type="text" value="#4" id="num-4-21" name="num-4-21">
-    <input type="text" value="t7" id="num-4-22" name="num-4-22">
-    <input type="text" value="" id="num-4-23" name="num-4-23">
-    <input type="text" value="3" id="num-4-24" name="num-4-24">
-    <input type="text" value="#4" id="num-4-25" name="num-4-25">
-    <input type="text" value="t7" id="num-4-26" name="num-4-26">
-    <input type="text" value="t9" id="num-4-27" name="num-4-27">
-    <input type="text" value="#4" id="num-4-28" name="num-4-28">
-    <input type="text" value="t7" id="num-4-29" name="num-4-29">
+    <input class="first-cell" value="I" type="text" id="a-chord-5" name="a-chord-5">
+    <input type="text" class="next-columns" value="7" id="a-num-5-1" name="a-num-5-1">
+    <input type="text" value="3" id="a-num-5-2" name="a-num-5-2">
+    <input type="text" value="" id="a-num-5-3" name="a-num-5-3">
+    <input type="text" value="6" id="a-num-5-4" name="a-num-5-4">
+    <input type="text" value="9" id="a-num-5-5" name="a-num-5-5">
+    <input type="text" value="5" id="a-num-5-6" name="a-num-5-6">
+    <input type="text" value="" id="a-num-5-7" name="a-num-5-7">
+    <input type="text" value="6" id="a-num-5-8" name="a-num-5-8">
+    <input type="text" value="9" id="a-num-5-9" name="a-num-5-9">
+    <input type="text" value="3" id="a-num-5-10" name="a-num-5-10">
+    <input type="text" value="5" id="a-num-5-11" name="a-num-5-11">
+    <input type="text" value="" id="a-num-5-12" name="a-num-5-12">
+    <input type="text" value="7" id="a-num-5-13" name="a-num-5-13">
+    <input type="text" value="3" id="a-num-5-14" name="a-num-5-14">
+    <input type="text" value="6" id="a-num-5-15" name="a-num-5-15">
+    <input type="text" value="9" id="a-num-5-16" name="a-num-5-16">
+    <input type="text" value="" id="a-num-5-17" name="a-num-5-17">
+    <input type="text" value="7" id="a-num-5-18" name="a-num-5-18">
+    <input type="text" value="3" id="a-num-5-19" name="a-num-5-19">
+    <input type="text" value="#4" id="a-num-5-20" name="a-num-5-20">
+    <input type="text" value="6" id="a-num-5-21" name="a-num-5-21">
+    <input type="text" value="9" id="a-num-5-22" name="a-num-5-22">
+    <input type="text" value="" id="a-num-5-23" name="a-num-5-23">
+    <input type="text" value="6" id="a-num-5-24" name="a-num-5-24">
+    <input type="text" value="9" id="a-num-5-25" name="a-num-5-25">
+    <input type="text" value="3" id="a-num-5-26" name="a-num-5-26">
+    <input type="text" value="#4" id="a-num-5-27" name="a-num-5-27">
+    <input type="text" value="7" id="a-num-5-28" name="a-num-5-28">
+    <input type="text" value="9" id="a-num-5-29" name="a-num-5-29">
 
-    <input class="first-cell" value="I" type="text" id="chord-5" name="chord-5">
-    <input type="text" class="next-columns" value="7" id="num-5-1" name="num-5-1">
-    <input type="text" value="3" id="num-5-2" name="num-5-2">
-    <input type="text" value="" id="num-5-3" name="num-5-3">
-    <input type="text" value="6" id="num-5-4" name="num-5-4">
-    <input type="text" value="9" id="num-5-5" name="num-5-5">
-    <input type="text" value="5" id="num-5-6" name="num-5-6">
-    <input type="text" value="" id="num-5-7" name="num-5-7">
-    <input type="text" value="6" id="num-5-8" name="num-5-8">
-    <input type="text" value="9" id="num-5-9" name="num-5-9">
-    <input type="text" value="3" id="num-5-10" name="num-5-10">
-    <input type="text" value="5" id="num-5-11" name="num-5-11">
-    <input type="text" value="" id="num-5-12" name="num-5-12">
-    <input type="text" value="7" id="num-5-13" name="num-5-13">
-    <input type="text" value="3" id="num-5-14" name="num-5-14">
-    <input type="text" value="6" id="num-5-15" name="num-5-15">
-    <input type="text" value="9" id="num-5-16" name="num-5-16">
-    <input type="text" value="" id="num-5-17" name="num-5-17">
-    <input type="text" value="7" id="num-5-18" name="num-5-18">
-    <input type="text" value="3" id="num-5-19" name="num-5-19">
-    <input type="text" value="#4" id="num-5-20" name="num-5-20">
-    <input type="text" value="6" id="num-5-21" name="num-5-21">
-    <input type="text" value="9" id="num-5-22" name="num-5-22">
-    <input type="text" value="" id="num-5-23" name="num-5-23">
-    <input type="text" value="6" id="num-5-24" name="num-5-24">
-    <input type="text" value="9" id="num-5-25" name="num-5-25">
-    <input type="text" value="3" id="num-5-26" name="num-5-26">
-    <input type="text" value="#4" id="num-5-27" name="num-5-27">
-    <input type="text" value="7" id="num-5-28" name="num-5-28">
-    <input type="text" value="9" id="num-5-29" name="num-5-29">
+    <input class="first-cell" value="VIIt" type="text" id="a-chord-6" name="a-chord-6">
+    <input type="text" class="next-columns" value="t7" id="a-num-6-1" name="a-num-6-1">
+    <input type="text" value="3" id="a-num-6-2" name="a-num-6-2">
+    <input type="text" value="" id="a-num-6-3" name="a-num-6-3">
+    <input type="text" value="t7" id="a-num-6-4" name="a-num-6-4">
+    <input type="text" value="3" id="a-num-6-5" name="a-num-6-5">
+    <input type="text" value="6" id="a-num-6-6" name="a-num-6-6">
+    <input type="text" value="" id="a-num-6-7" name="a-num-6-7">
+    <input type="text" value="t7" id="a-num-6-8" name="a-num-6-8">
+    <input type="text" value="9" id="a-num-6-9" name="a-num-6-9">
+    <input type="text" value="#4" id="a-num-6-10" name="a-num-6-10">
+    <input type="text" value="6" id="a-num-6-11" name="a-num-6-11">
+    <input type="text" value="" id="a-num-6-12" name="a-num-6-12">
+    <input type="text" value="t7" id="a-num-6-13" name="a-num-6-13">
+    <input type="text" value="#4" id="a-num-6-14" name="a-num-6-14">
+    <input type="text" value="6" id="a-num-6-15" name="a-num-6-15">
+    <input type="text" value="9" id="a-num-6-16" name="a-num-6-16">
+    <input type="text" value="" id="a-num-6-17" name="a-num-6-17">
+    <input type="text" value="t7" id="a-num-6-18" name="a-num-6-18">
+    <input type="text" value="3" id="a-num-6-19" name="a-num-6-19">
+    <input type="text" value="6" id="a-num-6-20" name="a-num-6-20">
+    <input type="text" value="9" id="a-num-6-21" name="a-num-6-21">
+    <input type="text" value="#4" id="a-num-6-22" name="a-num-6-22">
+    <input type="text" value="" id="a-num-6-23" name="a-num-6-23">
+    <input type="text" value="t7" id="a-num-6-24" name="a-num-6-24">
+    <input type="text" value="3" id="a-num-6-25" name="a-num-6-25">
+    <input type="text" value="#4" id="a-num-6-26" name="a-num-6-26">
+    <input type="text" value="6" id="a-num-6-27" name="a-num-6-27">
+    <input type="text" value="9" id="a-num-6-28" name="a-num-6-28">
+    <input type="text" value="#4" id="a-num-6-29" name="a-num-6-29">
 
-    <input class="first-cell" value="VIIt" type="text" id="chord-6" name="chord-6">
-    <input type="text" class="next-columns" value="t7" id="num-6-1" name="num-6-1">
-    <input type="text" value="3" id="num-6-2" name="num-6-2">
-    <input type="text" value="" id="num-6-3" name="num-6-3">
-    <input type="text" value="t7" id="num-6-4" name="num-6-4">
-    <input type="text" value="3" id="num-6-5" name="num-6-5">
-    <input type="text" value="6" id="num-6-6" name="num-6-6">
-    <input type="text" value="" id="num-6-7" name="num-6-7">
-    <input type="text" value="t7" id="num-6-8" name="num-6-8">
-    <input type="text" value="9" id="num-6-9" name="num-6-9">
-    <input type="text" value="#4" id="num-6-10" name="num-6-10">
-    <input type="text" value="6" id="num-6-11" name="num-6-11">
-    <input type="text" value="" id="num-6-12" name="num-6-12">
-    <input type="text" value="t7" id="num-6-13" name="num-6-13">
-    <input type="text" value="#4" id="num-6-14" name="num-6-14">
-    <input type="text" value="6" id="num-6-15" name="num-6-15">
-    <input type="text" value="9" id="num-6-16" name="num-6-16">
-    <input type="text" value="" id="num-6-17" name="num-6-17">
-    <input type="text" value="t7" id="num-6-18" name="num-6-18">
-    <input type="text" value="3" id="num-6-19" name="num-6-19">
-    <input type="text" value="6" id="num-6-20" name="num-6-20">
-    <input type="text" value="9" id="num-6-21" name="num-6-21">
-    <input type="text" value="#4" id="num-6-22" name="num-6-22">
-    <input type="text" value="" id="num-6-23" name="num-6-23">
-    <input type="text" value="t7" id="num-6-24" name="num-6-24">
-    <input type="text" value="3" id="num-6-25" name="num-6-25">
-    <input type="text" value="#4" id="num-6-26" name="num-6-26">
-    <input type="text" value="6" id="num-6-27" name="num-6-27">
-    <input type="text" value="9" id="num-6-28" name="num-6-28">
-    <input type="text" value="#4" id="num-6-29" name="num-6-29">
+    <input class="first-cell" value="VI" type="text" id="a-chord-7" name="a-chord-7">
+    <input type="text" class="next-columns" value="t7" id="a-num-7-1" name="a-num-7-1">
+    <input type="text" value="3" id="a-num-7-2" name="a-num-7-2">
+    <input type="text" value="" id="a-num-7-3" name="a-num-7-3">
+    <input type="text" value="t7" id="a-num-7-4" name="a-num-7-4">
+    <input type="text" value="3" id="a-num-7-5" name="a-num-7-5">
+    <input type="text" value="t6" id="a-num-7-6" name="a-num-7-6">
+    <input type="text" value="" id="a-num-7-7" name="a-num-7-7">
+    <input type="text" value="t7" id="a-num-7-8" name="a-num-7-8">
+    <input type="text" value="t9" id="a-num-7-9" name="a-num-7-9">
+    <input type="text" value="3" id="a-num-7-10" name="a-num-7-10">
+    <input type="text" value="t6" id="a-num-7-11" name="a-num-7-11">
+    <input type="text" value="" id="a-num-7-12" name="a-num-7-12">
+    <input type="text" value="t7" id="a-num-7-13" name="a-num-7-13">
+    <input type="text" value="3" id="a-num-7-14" name="a-num-7-14">
+    <input type="text" value="t6" id="a-num-7-15" name="a-num-7-15">
+    <input type="text" value="t9" id="a-num-7-16" name="a-num-7-16">
+    <input type="text" value="" id="a-num-7-17" name="a-num-7-17">
+    <input type="text" value="t7" id="a-num-7-18" name="a-num-7-18">
+    <input type="text" value="3" id="a-num-7-19" name="a-num-7-19">
+    <input type="text" value="6" id="a-num-7-20" name="a-num-7-20">
+    <input type="text" value="9" id="a-num-7-21" name="a-num-7-21">
+    <input type="text" value="t5" id="a-num-7-22" name="a-num-7-22">
+    <input type="text" value="" id="a-num-7-23" name="a-num-7-23">
+    <input type="text" value="t7" id="a-num-7-24" name="a-num-7-24">
+    <input type="text" value="3" id="a-num-7-25" name="a-num-7-25">
+    <input type="text" value="t5" id="a-num-7-26" name="a-num-7-26">
+    <input type="text" value="6" id="a-num-7-27" name="a-num-7-27">
+    <input type="text" value="t9" id="a-num-7-28" name="a-num-7-28">
+    <input type="text" value="t5" id="a-num-7-29" name="a-num-7-29">
 
-    <input class="first-cell" value="VI" type="text" id="chord-7" name="chord-7">
-    <input type="text" class="next-columns" value="t7" id="num-7-1" name="num-7-1">
-    <input type="text" value="3" id="num-7-2" name="num-7-2">
-    <input type="text" value="" id="num-7-3" name="num-7-3">
-    <input type="text" value="t7" id="num-7-4" name="num-7-4">
-    <input type="text" value="3" id="num-7-5" name="num-7-5">
-    <input type="text" value="t6" id="num-7-6" name="num-7-6">
-    <input type="text" value="" id="num-7-7" name="num-7-7">
-    <input type="text" value="t7" id="num-7-8" name="num-7-8">
-    <input type="text" value="t9" id="num-7-9" name="num-7-9">
-    <input type="text" value="3" id="num-7-10" name="num-7-10">
-    <input type="text" value="t6" id="num-7-11" name="num-7-11">
-    <input type="text" value="" id="num-7-12" name="num-7-12">
-    <input type="text" value="t7" id="num-7-13" name="num-7-13">
-    <input type="text" value="3" id="num-7-14" name="num-7-14">
-    <input type="text" value="t6" id="num-7-15" name="num-7-15">
-    <input type="text" value="t9" id="num-7-16" name="num-7-16">
-    <input type="text" value="" id="num-7-17" name="num-7-17">
-    <input type="text" value="t7" id="num-7-18" name="num-7-18">
-    <input type="text" value="3" id="num-7-19" name="num-7-19">
-    <input type="text" value="6" id="num-7-20" name="num-7-20">
-    <input type="text" value="9" id="num-7-21" name="num-7-21">
-    <input type="text" value="t5" id="num-7-22" name="num-7-22">
-    <input type="text" value="" id="num-7-23" name="num-7-23">
-    <input type="text" value="t7" id="num-7-24" name="num-7-24">
-    <input type="text" value="3" id="num-7-25" name="num-7-25">
-    <input type="text" value="t5" id="num-7-26" name="num-7-26">
-    <input type="text" value="6" id="num-7-27" name="num-7-27">
-    <input type="text" value="t9" id="num-7-28" name="num-7-28">
-    <input type="text" value="t5" id="num-7-29" name="num-7-29">
+    <input class="first-cell" value="II" type="text" id="a-chord-8" name="a-chord-8">
+    <input type="text" class="next-columns" value="t3" id="a-num-8-1" name="a-num-8-1">
+    <input type="text" value="t7" id="a-num-8-2" name="a-num-8-2">
+    <input type="text" value="" id="a-num-8-3" name="a-num-8-3">
+    <input type="text" value="t3" id="a-num-8-4" name="a-num-8-4">
+    <input type="text" value="5" id="a-num-8-5" name="a-num-8-5">
+    <input type="text" value="9" id="a-num-8-6" name="a-num-8-6">
+    <input type="text" value="" id="a-num-8-7" name="a-num-8-7">
+    <input type="text" value="t3" id="a-num-8-8" name="a-num-8-8">
+    <input type="text" value="5" id="a-num-8-9" name="a-num-8-9">
+    <input type="text" value="6" id="a-num-8-10" name="a-num-8-10">
+    <input type="text" value="9" id="a-num-8-11" name="a-num-8-11">
+    <input type="text" value="" id="a-num-8-12" name="a-num-8-12">
+    <input type="text" value="t3" id="a-num-8-13" name="a-num-8-13">
+    <input type="text" value="t7" id="a-num-8-14" name="a-num-8-14">
+    <input type="text" value="9" id="a-num-8-15" name="a-num-8-15">
+    <input type="text" value="6" id="a-num-8-16" name="a-num-8-16">
+    <input type="text" value="" id="a-num-8-17" name="a-num-8-17">
+    <input type="text" value="t3" id="a-num-8-18" name="a-num-8-18">
+    <input type="text" value="t7" id="a-num-8-19" name="a-num-8-19">
+    <input type="text" value="4" id="a-num-8-20" name="a-num-8-20">
+    <input type="text" value="6" id="a-num-8-21" name="a-num-8-21">
+    <input type="text" value="9" id="a-num-8-22" name="a-num-8-22">
+    <input type="text" value="" id="a-num-8-23" name="a-num-8-23">
+    <input type="text" value="3" id="a-num-8-24" name="a-num-8-24">
+    <input type="text" value="7" id="a-num-8-25" name="a-num-8-25">
+    <input type="text" value="9" id="a-num-8-26" name="a-num-8-26">
+    <input type="text" value="4" id="a-num-8-27" name="a-num-8-27">
+    <input type="text" value="6" id="a-num-8-28" name="a-num-8-28">
+    <input type="text" value="9" id="a-num-8-29" name="a-num-8-29">
 
-    <input class="first-cell" value="II" type="text" id="chord-8" name="chord-8">
-    <input type="text" class="next-columns" value="t3" id="num-8-1" name="num-8-1">
-    <input type="text" value="t7" id="num-8-2" name="num-8-2">
-    <input type="text" value="" id="num-8-3" name="num-8-3">
-    <input type="text" value="t3" id="num-8-4" name="num-8-4">
-    <input type="text" value="5" id="num-8-5" name="num-8-5">
-    <input type="text" value="9" id="num-8-6" name="num-8-6">
-    <input type="text" value="" id="num-8-7" name="num-8-7">
-    <input type="text" value="t3" id="num-8-8" name="num-8-8">
-    <input type="text" value="5" id="num-8-9" name="num-8-9">
-    <input type="text" value="6" id="num-8-10" name="num-8-10">
-    <input type="text" value="9" id="num-8-11" name="num-8-11">
-    <input type="text" value="" id="num-8-12" name="num-8-12">
-    <input type="text" value="t3" id="num-8-13" name="num-8-13">
-    <input type="text" value="t7" id="num-8-14" name="num-8-14">
-    <input type="text" value="9" id="num-8-15" name="num-8-15">
-    <input type="text" value="6" id="num-8-16" name="num-8-16">
-    <input type="text" value="" id="num-8-17" name="num-8-17">
-    <input type="text" value="t3" id="num-8-18" name="num-8-18">
-    <input type="text" value="t7" id="num-8-19" name="num-8-19">
-    <input type="text" value="4" id="num-8-20" name="num-8-20">
-    <input type="text" value="6" id="num-8-21" name="num-8-21">
-    <input type="text" value="9" id="num-8-22" name="num-8-22">
-    <input type="text" value="" id="num-8-23" name="num-8-23">
-    <input type="text" value="3" id="num-8-24" name="num-8-24">
-    <input type="text" value="7" id="num-8-25" name="num-8-25">
-    <input type="text" value="9" id="num-8-26" name="num-8-26">
-    <input type="text" value="4" id="num-8-27" name="num-8-27">
-    <input type="text" value="6" id="num-8-28" name="num-8-28">
-    <input type="text" value="9" id="num-8-29" name="num-8-29">
+    <input class="first-cell" value="V" type="text" id="a-chord-9" name="a-chord-9">
+    <input type="text" class="next-columns" value="t7" id="a-num-9-1" name="a-num-9-1">
+    <input type="text" value="3" id="a-num-9-2" name="a-num-9-2">
+    <input type="text" value="" id="a-num-9-3" name="a-num-9-3">
+    <input type="text" value="t7" id="a-num-9-4" name="a-num-9-4">
+    <input type="text" value="3" id="a-num-9-5" name="a-num-9-5">
+    <input type="text" value="6" id="a-num-9-6" name="a-num-9-6">
+    <input type="text" value="" id="a-num-9-7" name="a-num-9-7">
+    <input type="text" value="t7" id="a-num-9-8" name="a-num-9-8">
+    <input type="text" value="3" id="a-num-9-9" name="a-num-9-9">
+    <input type="text" value="#4" id="a-num-9-10" name="a-num-9-10">
+    <input type="text" value="6" id="a-num-9-11" name="a-num-9-11">
+    <input type="text" value="" id="a-num-9-12" name="a-num-9-12">
+    <input type="text" value="t7" id="a-num-9-13" name="a-num-9-13">
+    <input type="text" value="3" id="a-num-9-14" name="a-num-9-14">
+    <input type="text" value="6" id="a-num-9-15" name="a-num-9-15">
+    <input type="text" value="t9" id="a-num-9-16" name="a-num-9-16">
+    <input type="text" value="" id="a-num-9-17" name="a-num-9-17">
+    <input type="text" value="t7" id="a-num-9-18" name="a-num-9-18">
+    <input type="text" value="3" id="a-num-9-19" name="a-num-9-19">
+    <input type="text" value="6" id="a-num-9-20" name="a-num-9-20">
+    <input type="text" value="t9" id="a-num-9-21" name="a-num-9-21">
+    <input type="text" value="4" id="a-num-9-22" name="a-num-9-22">
+    <input type="text" value="" id="a-num-9-23" name="a-num-9-23">
+    <input type="text" value="t7" id="a-num-9-24" name="a-num-9-24">
+    <input type="text" value="3" id="a-num-9-25" name="a-num-9-25">
+    <input type="text" value="6" id="a-num-9-26" name="a-num-9-26">
+    <input type="text" value="t9" id="a-num-9-27" name="a-num-9-27">
+    <input type="text" value="4" id="a-num-9-28" name="a-num-9-28">
+    <input type="text" value="6" id="a-num-9-29" name="a-num-9-29">
 
-    <input class="first-cell" value="V" type="text" id="chord-9" name="chord-9">
-    <input type="text" class="next-columns" value="t7" id="num-9-1" name="num-9-1">
-    <input type="text" value="3" id="num-9-2" name="num-9-2">
-    <input type="text" value="" id="num-9-3" name="num-9-3">
-    <input type="text" value="t7" id="num-9-4" name="num-9-4">
-    <input type="text" value="3" id="num-9-5" name="num-9-5">
-    <input type="text" value="6" id="num-9-6" name="num-9-6">
-    <input type="text" value="" id="num-9-7" name="num-9-7">
-    <input type="text" value="t7" id="num-9-8" name="num-9-8">
-    <input type="text" value="3" id="num-9-9" name="num-9-9">
-    <input type="text" value="#4" id="num-9-10" name="num-9-10">
-    <input type="text" value="6" id="num-9-11" name="num-9-11">
-    <input type="text" value="" id="num-9-12" name="num-9-12">
-    <input type="text" value="t7" id="num-9-13" name="num-9-13">
-    <input type="text" value="3" id="num-9-14" name="num-9-14">
-    <input type="text" value="6" id="num-9-15" name="num-9-15">
-    <input type="text" value="t9" id="num-9-16" name="num-9-16">
-    <input type="text" value="" id="num-9-17" name="num-9-17">
-    <input type="text" value="t7" id="num-9-18" name="num-9-18">
-    <input type="text" value="3" id="num-9-19" name="num-9-19">
-    <input type="text" value="6" id="num-9-20" name="num-9-20">
-    <input type="text" value="t9" id="num-9-21" name="num-9-21">
-    <input type="text" value="4" id="num-9-22" name="num-9-22">
-    <input type="text" value="" id="num-9-23" name="num-9-23">
-    <input type="text" value="t7" id="num-9-24" name="num-9-24">
-    <input type="text" value="3" id="num-9-25" name="num-9-25">
-    <input type="text" value="6" id="num-9-26" name="num-9-26">
-    <input type="text" value="t9" id="num-9-27" name="num-9-27">
-    <input type="text" value="4" id="num-9-28" name="num-9-28">
-    <input type="text" value="6" id="num-9-29" name="num-9-29">
+    <input class="first-cell" value="I" type="text" id="a-chord-10" name="a-chord-10">
+    <input type="text" class="next-columns" value="3" id="a-num-10-1" name="a-num-10-1">
+    <input type="text" value="t7" id="a-num-10-2" name="a-num-10-2">
+    <input type="text" value="" id="a-num-10-3" name="a-num-10-3">
+    <input type="text" value="3" id="a-num-10-4" name="a-num-10-4">
+    <input type="text" value="6" id="a-num-10-5" name="a-num-10-5">
+    <input type="text" value="9" id="a-num-10-6" name="a-num-10-6">
+    <input type="text" value="" id="a-num-10-7" name="a-num-10-7">
+    <input type="text" value="3" id="a-num-10-8" name="a-num-10-8">
+    <input type="text" value="5" id="a-num-10-9" name="a-num-10-9">
+    <input type="text" value="6" id="a-num-10-10" name="a-num-10-10">
+    <input type="text" value="9" id="a-num-10-11" name="a-num-10-11">
+    <input type="text" value="" id="a-num-10-12" name="a-num-10-12">
+    <input type="text" value="3" id="a-num-10-13" name="a-num-10-13">
+    <input type="text" value="6" id="a-num-10-14" name="a-num-10-14">
+    <input type="text" value="9" id="a-num-10-15" name="a-num-10-15">
+    <input type="text" value="4" id="a-num-10-16" name="a-num-10-16">
+    <input type="text" value="" id="a-num-10-17" name="a-num-10-17">
+    <input type="text" value="3" id="a-num-10-18" name="a-num-10-18">
+    <input type="text" value="6" id="a-num-10-19" name="a-num-10-19">
+    <input type="text" value="9" id="a-num-10-20" name="a-num-10-20">
+    <input type="text" value="5" id="a-num-10-21" name="a-num-10-21">
+    <input type="text" value="t7" id="a-num-10-22" name="a-num-10-22">
+    <input type="text" value="" id="a-num-10-23" name="a-num-10-23">
+    <input type="text" value="3" id="a-num-10-24" name="a-num-10-24">
+    <input type="text" value="t7" id="a-num-10-25" name="a-num-10-25">
+    <input type="text" value="9" id="a-num-10-26" name="a-num-10-26">
+    <input type="text" value="#4" id="a-num-10-27" name="a-num-10-27">
+    <input type="text" value="6" id="a-num-10-28" name="a-num-10-28">
+    <input type="text" value="9" id="{{letter}}a-num-10-29" name="a-num-10-29">
 
-    <input class="first-cell" value="I" type="text" id="chord-10" name="chord-10">
-    <input type="text" class="next-columns" value="3" id="num-10-1" name="num-10-1">
-    <input type="text" value="t7"  id="num-10-2" name="num-10-2">
-    <input type="text" value="" id="num-10-3" name="num-10-3">
-    <input type="text" value="3" id="num-10-4" name="num-10-4">
-    <input type="text" value="6" id="num-10-5" name="num-10-5">
-    <input type="text" value="9" id="num-10-6" name="num-10-6">
-    <input type="text" value="" id="num-10-7" name="num-10-7">
-    <input type="text" value="3" id="num-10-8" name="num-10-8">
-    <input type="text" value="5" id="num-10-9" name="num-10-9">
-    <input type="text" value="6" id="num-10-10" name="num-10-10">
-    <input type="text" value="9" id="num-10-11" name="num-10-11">
-    <input type="text" value="" id="num-10-12" name="num-10-12">
-    <input type="text" value="3" id="num-10-13" name="num-10-13">
-    <input type="text" value="6" id="num-10-14" name="num-10-14">
-    <input type="text" value="9" id="num-10-15" name="num-10-15">
-    <input type="text" value="4" id="num-10-16" name="num-10-16">
-    <input type="text" value="" id="num-10-17" name="num-10-17">
-    <input type="text" value="3" id="num-10-18" name="num-10-18">
-    <input type="text" value="6" id="num-10-19" name="num-10-19">
-    <input type="text" value="9" id="num-10-20" name="num-10-20">
-    <input type="text" value="5" id="num-10-21" name="num-10-21">
-    <input type="text" value="t7" id="num-10-22" name="num-10-22">
-    <input type="text" value="" id="num-10-23" name="num-10-23">
-    <input type="text" value="3" id="num-10-24" name="num-10-24">
-    <input type="text" value="t7" id="num-10-25" name="num-10-25">
-    <input type="text" value="9" id="num-10-26" name="num-10-26">
-    <input type="text" value="#4" id="num-10-27" name="num-10-27">
-    <input type="text" value="6" id="num-10-28" name="num-10-28">
-    <input type="text" value="9" id="num-10-29" name="num-10-29">
+    <button type="submit" class="btn btn-primary">Chordify It!</button>
+</form>
+
+<form class="container" action="{{ url_for('boxes_one', grid_letter='b') }}" method="post">
+    <input class="first-cell" value="VIIt" type="text" id="b-chord-1" name="b-chord-1">
+    <input type="text" class="next-columns" value="3" id="b-num-1-1" name="b-num-1-1">
+    <input type="text" value="t7" id="b-num-1-2" name="b-num-1-2">
+    <input type="text" value="" id="b-num-1-3" name="b-num-1-3">
+    <input type="text" value="3" id="b-num-1-4" name="b-num-1-4">
+    <input type="text" value="t7" id="b-num-1-5" name="b-num-1-5">
+    <input type="text" value="9" id="b-num-1-6" name="b-num-1-6">
+    <input type="text" value="" id="b-num-1-7" name="b-num-1-7">
+    <input type="text" value="3" id="b-num-1-8" name="b-num-1-8">
+    <input type="text" value="6" id="b-num-1-9" name="b-num-1-9">
+    <input type="text" value="t7" id="b-num-1-10" name="b-num-1-10">
+    <input type="text" value="9" id="b-num-1-11" name="b-num-1-11">
+    <input type="text" value="" id="b-num-1-12" name="b-num-1-12">
+    <input type="text" value="3" id="b-num-1-13" name="b-num-1-13">
+    <input type="text" value="t7" id="b-num-1-14" name="b-num-1-14">
+    <input type="text" value="9" id="b-num-1-15" name="b-num-1-15">
+    <input type="text" value="#4" id="b-num-1-16" name="b-num-1-16">
+    <input type="text" value="" id="b-num-1-17" name="b-num-1-17">
+    <input type="text" value="3" id="b-num-1-18" name="b-num-1-18">
+    <input type="text" value="t7" id="b-num-1-19" name="b-num-1-19">
+    <input type="text" value="9" id="b-num-1-20" name="b-num-1-20">
+    <input type="text" value="#4" id="b-num-1-21" name="b-num-1-21">
+    <input type="text" value="6" id="b-num-1-22" name="b-num-1-22">
+    <input type="text" value="" id="b-num-1-23" name="b-num-1-23">
+    <input type="text" value="3" id="b-num-1-24" name="b-num-1-24">
+    <input type="text" value="6" id="b-num-1-25" name="b-num-1-25">
+    <input type="text" value="7" id="b-num-1-26" name="b-num-1-26">
+    <input type="text" value="9" id="b-num-1-27" name="b-num-1-27">
+    <input type="text" value="#4" id="b-num-1-28" name="b-num-1-28">
+    <input type="text" value="6" id="b-num-1-29" name="b-num-1-29">
+
+    <input class="first-cell" value="VI" type="text" id="b-chord-2" name="b-chord-2">
+    <input type="text" class="next-columns" value="3" id="b-num-2-1" name="b-num-2-1">
+    <input type="text" value="t7" id="b-num-2-2" name="b-num-2-2">
+    <input type="text" value="" id="b-num-2-3" name="b-num-2-3">
+    <input type="text" value="3" id="b-num-2-4" name="b-num-2-4">
+    <input type="text" value="t7" id="b-num-2-5" name="b-num-2-5">
+    <input type="text" value="#9" id="b-num-2-6" name="b-num-2-6">
+    <input type="text" value="" id="b-num-2-7" name="b-num-2-7">
+    <input type="text" value="3" id="b-num-2-8" name="b-num-2-8">
+    <input type="text" value="t6" id="b-num-2-9" name="b-num-2-9">
+    <input type="text" value="t7" id="b-num-2-10" name="b-num-2-10">
+    <input type="text" value="#9" id="b-num-2-11" name="b-num-2-11">
+    <input type="text" value="" id="b-num-2-12" name="b-num-2-12">
+    <input type="text" value="3" id="b-num-2-13" name="b-num-2-13">
+    <input type="text" value="t7" id="b-num-2-14" name="b-num-2-14">
+    <input type="text" value="#9" id="b-num-2-15" name="b-num-2-15">
+    <input type="text" value="t6" id="b-num-2-16" name="b-num-2-16">
+    <input type="text" value="" id="b-num-2-17" name="b-num-2-17">
+    <input type="text" value="3" id="b-num-2-18" name="b-num-2-18">
+    <input type="text" value="t7" id="b-num-2-19" name="b-num-2-19">
+    <input type="text" value="t9" id="b-num-2-20" name="b-num-2-20">
+    <input type="text" value="t5" id="b-num-2-21" name="b-num-2-21">
+    <input type="text" value="t7" id="b-num-2-22" name="b-num-2-22">
+    <input type="text" value="" id="b-num-2-23" name="b-num-2-23">
+    <input type="text" value="3" id="b-num-2-24" name="b-num-2-24">
+    <input type="text" value="t6" id="b-num-2-25" name="b-num-2-25">
+    <input type="text" value="t7" id="b-num-2-26" name="b-num-2-26">
+    <input type="text" value="t9" id="b-num-2-27" name="b-num-2-27">
+    <input type="text" value="t5" id="b-num-2-28" name="b-num-2-28">
+    <input type="text" value="7" id="b-num-2-29" name="b-num-2-29">
+
+    <input class="first-cell" value="II" type="text" id="b-chord-3" name="b-chord-3">
+    <input type="text" class="b-next-columns" value="t7" id="b-num-3-1" name="b-num-3-1">
+    <input type="text" value="t3" id="b-num-3-2" name="b-num-3-2">
+    <input type="text" value="" id="b-num-3-3" name="b-num-3-3">
+    <input type="text" value="t7" id="b-num-3-4" name="b-num-3-4">
+    <input type="text" value="t3" id="b-num-3-5" name="b-num-3-5">
+    <input type="text" value="5" id="b-num-3-6" name="b-num-3-6">
+    <input type="text" value="" id="b-num-3-7" name="b-num-3-7">
+    <input type="text" value="t7" id="b-num-3-8" name="b-num-3-8">
+    <input type="text" value="9" id="b-num-3-9" name="b-num-3-9">
+    <input type="text" value="t3" id="b-num-3-10" name="b-num-3-10">
+    <input type="text" value="6" id="b-num-3-11" name="b-num-3-11">
+    <input type="text" value="" id="b-num-3-12" name="b-num-3-12">
+    <input type="text" value="t7" id="b-num-3-13" name="b-num-3-13">
+    <input type="text" value="t3" id="b-num-3-14" name="b-num-3-14">
+    <input type="text" value="6" id="b-num-3-15" name="b-num-3-15">
+    <input type="text" value="9" id="b-num-3-16" name="b-num-3-16">
+    <input type="text" value="" id="b-num-3-17" name="b-num-3-17">
+    <input type="text" value="t7" id="b-num-3-18" name="b-num-3-18">
+    <input type="text" value="t3" id="b-num-3-19" name="b-num-3-19">
+    <input type="text" value="6" id="b-num-3-20" name="b-num-3-20">
+    <input type="text" value="9" id="b-num-3-21" name="b-num-3-21">
+    <input type="text" value="4" id="b-num-3-22" name="b-num-3-22">
+    <input type="text" value="" id="b-num-3-23" name="b-num-3-23">
+    <input type="text" value="7" id="b-num-3-24" name="b-num-3-24">
+    <input type="text" value="9" id="b-num-3-25" name="b-num-3-25">
+    <input type="text" value="3" id="b-num-3-26" name="b-num-3-26">
+    <input type="text" value="5" id="b-num-3-27" name="b-num-3-27">
+    <input type="text" value="9" id="b-num-3-28" name="b-num-3-28">
+    <input type="text" value="4" id="b-num-3-29" name="b-num-3-29">
+
+    <input class="first-cell" value="V" type="text" id="b-chord-4" name="b-chord-4">
+    <input type="text" class="next-columns" value="3" id="b-num-4-1" name="b-num-4-1">
+    <input type="text" value="t7" id="b-num-4-2" name="b-num-4-2">
+    <input type="text" value="" id="b-num-4-3" name="b-num-4-3">
+    <input type="text" value="3" id="b-num-4-4" name="b-num-4-4">
+    <input type="text" value="t7" id="b-num-4-5" name="b-num-4-5">
+    <input type="text" value="t9" id="b-num-4-6" name="b-num-4-6">
+    <input type="text" value="" id="b-num-4-7" name="b-num-4-7">
+    <input type="text" value="3" id="b-num-4-8" name="b-num-4-8">
+    <input type="text" value="6" id="b-num-4-9" name="b-num-4-9">
+    <input type="text" value="7" id="b-num-4-10" name="b-num-4-10">
+    <input type="text" value="t9" id="b-num-4-11" name="b-num-4-11">
+    <input type="text" value="" id="b-num-4-12" name="b-num-4-12">
+    <input type="text" value="3" id="b-num-4-13" name="b-num-4-13">
+    <input type="text" value="t7" id="b-num-4-14" name="b-num-4-14">
+    <input type="text" value="t9" id="b-num-4-15" name="b-num-4-15">
+    <input type="text" value="#4" id="b-num-4-16" name="b-num-4-16">
+    <input type="text" value="" id="b-num-4-17" name="b-num-4-17">
+    <input type="text" value="3" id="b-num-4-18" name="b-num-4-18">
+    <input type="text" value="t7" id="b-num-4-19" name="b-num-4-19">
+    <input type="text" value="t9" id="b-num-4-20" name="b-num-4-20">
+    <input type="text" value="#4" id="b-num-4-21" name="b-num-4-21">
+    <input type="text" value="t7" id="b-num-4-22" name="b-num-4-22">
+    <input type="text" value="" id="b-num-4-23" name="b-num-4-23">
+    <input type="text" value="3" id="b-num-4-24" name="b-num-4-24">
+    <input type="text" value="#4" id="b-num-4-25" name="b-num-4-25">
+    <input type="text" value="t7" id="b-num-4-26" name="b-num-4-26">
+    <input type="text" value="t9" id="b-num-4-27" name="b-num-4-27">
+    <input type="text" value="#4" id="b-num-4-28" name="b-num-4-28">
+    <input type="text" value="t7" id="b-num-4-29" name="b-num-4-29">
+
+    <input class="first-cell" value="I" type="text" id="b-chord-5" name="b-chord-5">
+    <input type="text" class="next-columns" value="7" id="b-num-5-1" name="b-num-5-1">
+    <input type="text" value="3" id="b-num-5-2" name="b-num-5-2">
+    <input type="text" value="" id="b-num-5-3" name="b-num-5-3">
+    <input type="text" value="6" id="b-num-5-4" name="b-num-5-4">
+    <input type="text" value="9" id="b-num-5-5" name="b-num-5-5">
+    <input type="text" value="5" id="b-num-5-6" name="b-num-5-6">
+    <input type="text" value="" id="b-num-5-7" name="b-num-5-7">
+    <input type="text" value="6" id="b-num-5-8" name="b-num-5-8">
+    <input type="text" value="9" id="b-num-5-9" name="b-num-5-9">
+    <input type="text" value="3" id="b-num-5-10" name="b-num-5-10">
+    <input type="text" value="5" id="b-num-5-11" name="b-num-5-11">
+    <input type="text" value="" id="b-num-5-12" name="b-num-5-12">
+    <input type="text" value="7" id="b-num-5-13" name="b-num-5-13">
+    <input type="text" value="3" id="b-num-5-14" name="b-num-5-14">
+    <input type="text" value="6" id="b-num-5-15" name="b-num-5-15">
+    <input type="text" value="9" id="b-num-5-16" name="b-num-5-16">
+    <input type="text" value="" id="b-num-5-17" name="b-num-5-17">
+    <input type="text" value="7" id="b-num-5-18" name="b-num-5-18">
+    <input type="text" value="3" id="b-num-5-19" name="b-num-5-19">
+    <input type="text" value="#4" id="b-num-5-20" name="b-num-5-20">
+    <input type="text" value="6" id="b-num-5-21" name="b-num-5-21">
+    <input type="text" value="9" id="b-num-5-22" name="b-num-5-22">
+    <input type="text" value="" id="b-num-5-23" name="b-num-5-23">
+    <input type="text" value="6" id="b-num-5-24" name="b-num-5-24">
+    <input type="text" value="9" id="b-num-5-25" name="b-num-5-25">
+    <input type="text" value="3" id="b-num-5-26" name="b-num-5-26">
+    <input type="text" value="#4" id="b-num-5-27" name="b-num-5-27">
+    <input type="text" value="7" id="b-num-5-28" name="b-num-5-28">
+    <input type="text" value="9" id="b-num-5-29" name="b-num-5-29">
+
+    <input class="first-cell" value="VIIt" type="text" id="b-chord-6" name="b-chord-6">
+    <input type="text" class="next-columns" value="t7" id="b-num-6-1" name="b-num-6-1">
+    <input type="text" value="3" id="b-num-6-2" name="b-num-6-2">
+    <input type="text" value="" id="b-num-6-3" name="b-num-6-3">
+    <input type="text" value="t7" id="b-num-6-4" name="b-num-6-4">
+    <input type="text" value="3" id="b-num-6-5" name="b-num-6-5">
+    <input type="text" value="6" id="b-num-6-6" name="b-num-6-6">
+    <input type="text" value="" id="b-num-6-7" name="b-num-6-7">
+    <input type="text" value="t7" id="b-num-6-8" name="b-num-6-8">
+    <input type="text" value="9" id="b-num-6-9" name="b-num-6-9">
+    <input type="text" value="#4" id="b-num-6-10" name="b-num-6-10">
+    <input type="text" value="6" id="b-num-6-11" name="b-num-6-11">
+    <input type="text" value="" id="b-num-6-12" name="b-num-6-12">
+    <input type="text" value="t7" id="b-num-6-13" name="b-num-6-13">
+    <input type="text" value="#4" id="b-num-6-14" name="b-num-6-14">
+    <input type="text" value="6" id="b-num-6-15" name="b-num-6-15">
+    <input type="text" value="9" id="b-num-6-16" name="b-num-6-16">
+    <input type="text" value="" id="b-num-6-17" name="b-num-6-17">
+    <input type="text" value="t7" id="b-num-6-18" name="b-num-6-18">
+    <input type="text" value="3" id="b-num-6-19" name="b-num-6-19">
+    <input type="text" value="6" id="b-num-6-20" name="b-num-6-20">
+    <input type="text" value="9" id="b-num-6-21" name="b-num-6-21">
+    <input type="text" value="#4" id="b-num-6-22" name="b-num-6-22">
+    <input type="text" value="" id="b-num-6-23" name="b-num-6-23">
+    <input type="text" value="t7" id="b-num-6-24" name="b-num-6-24">
+    <input type="text" value="3" id="b-num-6-25" name="b-num-6-25">
+    <input type="text" value="#4" id="b-num-6-26" name="b-num-6-26">
+    <input type="text" value="6" id="b-num-6-27" name="b-num-6-27">
+    <input type="text" value="9" id="b-num-6-28" name="b-num-6-28">
+    <input type="text" value="#4" id="b-num-6-29" name="b-num-6-29">
+
+    <input class="first-cell" value="VI" type="text" id="b-chord-7" name="b-chord-7">
+    <input type="text" class="next-columns" value="t7" id="b-num-7-1" name="b-num-7-1">
+    <input type="text" value="3" id="b-num-7-2" name="b-num-7-2">
+    <input type="text" value="" id="b-num-7-3" name="b-num-7-3">
+    <input type="text" value="t7" id="b-num-7-4" name="b-num-7-4">
+    <input type="text" value="3" id="b-num-7-5" name="b-num-7-5">
+    <input type="text" value="t6" id="b-num-7-6" name="b-num-7-6">
+    <input type="text" value="" id="b-num-7-7" name="b-num-7-7">
+    <input type="text" value="t7" id="b-num-7-8" name="b-num-7-8">
+    <input type="text" value="t9" id="b-num-7-9" name="b-num-7-9">
+    <input type="text" value="3" id="b-num-7-10" name="b-num-7-10">
+    <input type="text" value="t6" id="b-num-7-11" name="b-num-7-11">
+    <input type="text" value="" id="b-num-7-12" name="b-num-7-12">
+    <input type="text" value="t7" id="b-num-7-13" name="b-num-7-13">
+    <input type="text" value="3" id="b-num-7-14" name="b-num-7-14">
+    <input type="text" value="t6" id="b-num-7-15" name="b-num-7-15">
+    <input type="text" value="t9" id="b-num-7-16" name="b-num-7-16">
+    <input type="text" value="" id="b-num-7-17" name="b-num-7-17">
+    <input type="text" value="t7" id="b-num-7-18" name="b-num-7-18">
+    <input type="text" value="3" id="b-num-7-19" name="b-num-7-19">
+    <input type="text" value="6" id="b-num-7-20" name="b-num-7-20">
+    <input type="text" value="9" id="b-num-7-21" name="b-num-7-21">
+    <input type="text" value="t5" id="b-num-7-22" name="b-num-7-22">
+    <input type="text" value="" id="b-num-7-23" name="b-num-7-23">
+    <input type="text" value="t7" id="b-num-7-24" name="b-num-7-24">
+    <input type="text" value="3" id="b-num-7-25" name="b-num-7-25">
+    <input type="text" value="t5" id="b-num-7-26" name="b-num-7-26">
+    <input type="text" value="6" id="b-num-7-27" name="b-num-7-27">
+    <input type="text" value="t9" id="b-num-7-28" name="b-num-7-28">
+    <input type="text" value="t5" id="b-num-7-29" name="b-num-7-29">
+
+    <input class="first-cell" value="II" type="text" id="b-chord-8" name="b-chord-8">
+    <input type="text" class="next-columns" value="t3" id="b-num-8-1" name="b-num-8-1">
+    <input type="text" value="t7" id="b-num-8-2" name="b-num-8-2">
+    <input type="text" value="" id="b-num-8-3" name="b-num-8-3">
+    <input type="text" value="t3" id="b-num-8-4" name="b-num-8-4">
+    <input type="text" value="5" id="b-num-8-5" name="b-num-8-5">
+    <input type="text" value="9" id="b-num-8-6" name="b-num-8-6">
+    <input type="text" value="" id="b-num-8-7" name="b-num-8-7">
+    <input type="text" value="t3" id="b-num-8-8" name="b-num-8-8">
+    <input type="text" value="5" id="b-num-8-9" name="b-num-8-9">
+    <input type="text" value="6" id="b-num-8-10" name="b-num-8-10">
+    <input type="text" value="9" id="b-num-8-11" name="b-num-8-11">
+    <input type="text" value="" id="b-num-8-12" name="b-num-8-12">
+    <input type="text" value="t3" id="b-num-8-13" name="b-num-8-13">
+    <input type="text" value="t7" id="b-num-8-14" name="b-num-8-14">
+    <input type="text" value="9" id="b-num-8-15" name="b-num-8-15">
+    <input type="text" value="6" id="b-num-8-16" name="b-num-8-16">
+    <input type="text" value="" id="b-num-8-17" name="b-num-8-17">
+    <input type="text" value="t3" id="b-num-8-18" name="b-num-8-18">
+    <input type="text" value="t7" id="b-num-8-19" name="b-num-8-19">
+    <input type="text" value="4" id="b-num-8-20" name="b-num-8-20">
+    <input type="text" value="6" id="b-num-8-21" name="b-num-8-21">
+    <input type="text" value="9" id="b-num-8-22" name="b-num-8-22">
+    <input type="text" value="" id="b-num-8-23" name="b-num-8-23">
+    <input type="text" value="3" id="b-num-8-24" name="b-num-8-24">
+    <input type="text" value="7" id="b-num-8-25" name="b-num-8-25">
+    <input type="text" value="9" id="b-num-8-26" name="b-num-8-26">
+    <input type="text" value="4" id="b-num-8-27" name="b-num-8-27">
+    <input type="text" value="6" id="b-num-8-28" name="b-num-8-28">
+    <input type="text" value="9" id="b-num-8-29" name="b-num-8-29">
+
+    <input class="first-cell" value="V" type="text" id="b-chord-9" name="b-chord-9">
+    <input type="text" class="next-columns" value="t7" id="b-num-9-1" name="b-num-9-1">
+    <input type="text" value="3" id="b-num-9-2" name="b-num-9-2">
+    <input type="text" value="" id="b-num-9-3" name="b-num-9-3">
+    <input type="text" value="t7" id="b-num-9-4" name="b-num-9-4">
+    <input type="text" value="3" id="b-num-9-5" name="b-num-9-5">
+    <input type="text" value="6" id="b-num-9-6" name="b-num-9-6">
+    <input type="text" value="" id="b-num-9-7" name="b-num-9-7">
+    <input type="text" value="t7" id="b-num-9-8" name="b-num-9-8">
+    <input type="text" value="3" id="b-num-9-9" name="b-num-9-9">
+    <input type="text" value="#4" id="b-num-9-10" name="b-num-9-10">
+    <input type="text" value="6" id="b-num-9-11" name="b-num-9-11">
+    <input type="text" value="" id="b-num-9-12" name="b-num-9-12">
+    <input type="text" value="t7" id="b-num-9-13" name="b-num-9-13">
+    <input type="text" value="3" id="b-num-9-14" name="b-num-9-14">
+    <input type="text" value="6" id="b-num-9-15" name="b-num-9-15">
+    <input type="text" value="t9" id="b-num-9-16" name="b-num-9-16">
+    <input type="text" value="" id="b-num-9-17" name="b-num-9-17">
+    <input type="text" value="t7" id="b-num-9-18" name="b-num-9-18">
+    <input type="text" value="3" id="b-num-9-19" name="b-num-9-19">
+    <input type="text" value="6" id="b-num-9-20" name="b-num-9-20">
+    <input type="text" value="t9" id="b-num-9-21" name="b-num-9-21">
+    <input type="text" value="4" id="b-num-9-22" name="b-num-9-22">
+    <input type="text" value="" id="b-num-9-23" name="b-num-9-23">
+    <input type="text" value="t7" id="b-num-9-24" name="b-num-9-24">
+    <input type="text" value="3" id="b-num-9-25" name="b-num-9-25">
+    <input type="text" value="6" id="b-num-9-26" name="b-num-9-26">
+    <input type="text" value="t9" id="b-num-9-27" name="b-num-9-27">
+    <input type="text" value="4" id="b-num-9-28" name="b-num-9-28">
+    <input type="text" value="6" id="b-num-9-29" name="b-num-9-29">
+
+    <input class="first-cell" value="I" type="text" id="b-chord-10" name="b-chord-10">
+    <input type="text" class="next-columns" value="3" id="b-num-10-1" name="b-num-10-1">
+    <input type="text" value="t7" id="b-num-10-2" name="b-num-10-2">
+    <input type="text" value="" id="b-num-10-3" name="b-num-10-3">
+    <input type="text" value="3" id="b-num-10-4" name="b-num-10-4">
+    <input type="text" value="6" id="b-num-10-5" name="b-num-10-5">
+    <input type="text" value="9" id="b-num-10-6" name="b-num-10-6">
+    <input type="text" value="" id="b-num-10-7" name="b-num-10-7">
+    <input type="text" value="3" id="b-num-10-8" name="b-num-10-8">
+    <input type="text" value="5" id="b-num-10-9" name="b-num-10-9">
+    <input type="text" value="6" id="b-num-10-10" name="b-num-10-10">
+    <input type="text" value="9" id="b-num-10-11" name="b-num-10-11">
+    <input type="text" value="" id="b-num-10-12" name="b-num-10-12">
+    <input type="text" value="3" id="b-num-10-13" name="b-num-10-13">
+    <input type="text" value="6" id="b-num-10-14" name="b-num-10-14">
+    <input type="text" value="9" id="b-num-10-15" name="b-num-10-15">
+    <input type="text" value="4" id="b-num-10-16" name="b-num-10-16">
+    <input type="text" value="" id="b-num-10-17" name="b-num-10-17">
+    <input type="text" value="3" id="b-num-10-18" name="b-num-10-18">
+    <input type="text" value="6" id="b-num-10-19" name="b-num-10-19">
+    <input type="text" value="9" id="b-num-10-20" name="b-num-10-20">
+    <input type="text" value="5" id="b-num-10-21" name="b-num-10-21">
+    <input type="text" value="t7" id="b-num-10-22" name="b-num-10-22">
+    <input type="text" value="" id="b-num-10-23" name="b-num-10-23">
+    <input type="text" value="3" id="b-num-10-24" name="b-num-10-24">
+    <input type="text" value="t7" id="b-num-10-25" name="b-num-10-25">
+    <input type="text" value="9" id="b-num-10-26" name="b-num-10-26">
+    <input type="text" value="#4" id="b-num-10-27" name="b-num-10-27">
+    <input type="text" value="6" id="b-num-10-28" name="b-num-10-28">
+    <input type="text" value="9" id="{{letter}}b-num-10-29" name="b-num-10-29">
+
+    <button type="submit" class="btn btn-primary">Chordify It!</button>
+</form>
+
+<form class="container" action="{{ url_for('boxes_one', grid_letter='c') }}" method="post">
+    <input class="first-cell" value="VIIt" type="text" id="c-chord-1" name="c-chord-1">
+    <input type="text" class="next-columns" value="" id="c-num-1-1" name="c-num-1-1">
+    <input type="text" value="" id="c-num-1-2" name="c-num-1-2">
+    <input type="text" value="" id="c-num-1-3" name="c-num-1-3">
+    <input type="text" value="" id="c-num-1-4" name="c-num-1-4">
+    <input type="text" value="" id="c-num-1-5" name="c-num-1-5">
+    <input type="text" value="" id="c-num-1-6" name="c-num-1-6">
+    <input type="text" value="" id="c-num-1-7" name="c-num-1-7">
+    <input type="text" value="" id="c-num-1-8" name="c-num-1-8">
+    <input type="text" value="" id="c-num-1-9" name="c-num-1-9">
+    <input type="text" value="" id="c-num-1-10" name="c-num-1-10">
+    <input type="text" value="" id="c-num-1-11" name="c-num-1-11">
+    <input type="text" value="" id="c-num-1-12" name="c-num-1-12">
+    <input type="text" value="" id="c-num-1-13" name="c-num-1-13">
+    <input type="text" value="" id="c-num-1-14" name="c-num-1-14">
+    <input type="text" value="" id="c-num-1-15" name="c-num-1-15">
+    <input type="text" value="" id="c-num-1-16" name="c-num-1-16">
+    <input type="text" value="" id="c-num-1-17" name="c-num-1-17">
+    <input type="text" value="" id="c-num-1-18" name="c-num-1-18">
+    <input type="text" value="" id="c-num-1-19" name="c-num-1-19">
+    <input type="text" value="" id="c-num-1-20" name="c-num-1-20">
+    <input type="text" value="" id="c-num-1-21" name="c-num-1-21">
+    <input type="text" value="" id="c-num-1-22" name="c-num-1-22">
+    <input type="text" value="" id="c-num-1-23" name="c-num-1-23">
+    <input type="text" value="" id="c-num-1-24" name="c-num-1-24">
+    <input type="text" value="" id="c-num-1-25" name="c-num-1-25">
+    <input type="text" value="" id="c-num-1-26" name="c-num-1-26">
+    <input type="text" value="" id="c-num-1-27" name="c-num-1-27">
+    <input type="text" value="" id="c-num-1-28" name="c-num-1-28">
+    <input type="text" value="" id="c-num-1-29" name="c-num-1-29">
+
+    <input class="first-cell" value="VI" type="text" id="c-chord-2" name="c-chord-2">
+    <input type="text" class="next-columns" value="" id="c-num-2-1" name="c-num-2-1">
+    <input type="text" value="" id="c-num-2-2" name="c-num-2-2">
+    <input type="text" value="" id="c-num-2-3" name="c-num-2-3">
+    <input type="text" value="" id="c-num-2-4" name="c-num-2-4">
+    <input type="text" value="" id="c-num-2-5" name="c-num-2-5">
+    <input type="text" value="" id="c-num-2-6" name="c-num-2-6">
+    <input type="text" value="" id="c-num-2-7" name="c-num-2-7">
+    <input type="text" value="" id="c-num-2-8" name="c-num-2-8">
+    <input type="text" value="" id="c-num-2-9" name="c-num-2-9">
+    <input type="text" value="" id="c-num-2-10" name="c-num-2-10">
+    <input type="text" value="" id="c-num-2-11" name="c-num-2-11">
+    <input type="text" value="" id="c-num-2-12" name="c-num-2-12">
+    <input type="text" value="" id="c-num-2-13" name="c-num-2-13">
+    <input type="text" value="" id="c-num-2-14" name="c-num-2-14">
+    <input type="text" value="" id="c-num-2-15" name="c-num-2-15">
+    <input type="text" value="" id="c-num-2-16" name="c-num-2-16">
+    <input type="text" value="" id="c-num-2-17" name="c-num-2-17">
+    <input type="text" value="" id="c-num-2-18" name="c-num-2-18">
+    <input type="text" value="" id="c-num-2-19" name="c-num-2-19">
+    <input type="text" value="" id="c-num-2-20" name="c-num-2-20">
+    <input type="text" value="" id="c-num-2-21" name="c-num-2-21">
+    <input type="text" value="" id="c-num-2-22" name="c-num-2-22">
+    <input type="text" value="" id="c-num-2-23" name="c-num-2-23">
+    <input type="text" value="" id="c-num-2-24" name="c-num-2-24">
+    <input type="text" value="" id="c-num-2-25" name="c-num-2-25">
+    <input type="text" value="" id="c-num-2-26" name="c-num-2-26">
+    <input type="text" value="" id="c-num-2-27" name="c-num-2-27">
+    <input type="text" value="" id="c-num-2-28" name="c-num-2-28">
+    <input type="text" value="" id="c-num-2-29" name="c-num-2-29">
+
+    <input class="first-cell" value="II" type="text" id="c-chord-3" name="c-chord-3">
+    <input type="text" class="c-next-columns" value="" id="c-num-3-1" name="c-num-3-1">
+    <input type="text" value="" id="c-num-3-2" name="c-num-3-2">
+    <input type="text" value="" id="c-num-3-3" name="c-num-3-3">
+    <input type="text" value="" id="c-num-3-4" name="c-num-3-4">
+    <input type="text" value="" id="c-num-3-5" name="c-num-3-5">
+    <input type="text" value="" id="c-num-3-6" name="c-num-3-6">
+    <input type="text" value="" id="c-num-3-7" name="c-num-3-7">
+    <input type="text" value="" id="c-num-3-8" name="c-num-3-8">
+    <input type="text" value="" id="c-num-3-9" name="c-num-3-9">
+    <input type="text" value="" id="c-num-3-10" name="c-num-3-10">
+    <input type="text" value="" id="c-num-3-11" name="c-num-3-11">
+    <input type="text" value="" id="c-num-3-12" name="c-num-3-12">
+    <input type="text" value="" id="c-num-3-13" name="c-num-3-13">
+    <input type="text" value="" id="c-num-3-14" name="c-num-3-14">
+    <input type="text" value="" id="c-num-3-15" name="c-num-3-15">
+    <input type="text" value="" id="c-num-3-16" name="c-num-3-16">
+    <input type="text" value="" id="c-num-3-17" name="c-num-3-17">
+    <input type="text" value="" id="c-num-3-18" name="c-num-3-18">
+    <input type="text" value="" id="c-num-3-19" name="c-num-3-19">
+    <input type="text" value="" id="c-num-3-20" name="c-num-3-20">
+    <input type="text" value="" id="c-num-3-21" name="c-num-3-21">
+    <input type="text" value="" id="c-num-3-22" name="c-num-3-22">
+    <input type="text" value="" id="c-num-3-23" name="c-num-3-23">
+    <input type="text" value="" id="c-num-3-24" name="c-num-3-24">
+    <input type="text" value="" id="c-num-3-25" name="c-num-3-25">
+    <input type="text" value="" id="c-num-3-26" name="c-num-3-26">
+    <input type="text" value="" id="c-num-3-27" name="c-num-3-27">
+    <input type="text" value="" id="c-num-3-28" name="c-num-3-28">
+    <input type="text" value="" id="c-num-3-29" name="c-num-3-29">
+
+    <input class="first-cell" value="V" type="text" id="c-chord-4" name="c-chord-4">
+    <input type="text" class="next-columns" value="" id="c-num-4-1" name="c-num-4-1">
+    <input type="text" value="" id="c-num-4-2" name="c-num-4-2">
+    <input type="text" value="" id="c-num-4-3" name="c-num-4-3">
+    <input type="text" value="" id="c-num-4-4" name="c-num-4-4">
+    <input type="text" value="" id="c-num-4-5" name="c-num-4-5">
+    <input type="text" value="" id="c-num-4-6" name="c-num-4-6">
+    <input type="text" value="" id="c-num-4-7" name="c-num-4-7">
+    <input type="text" value="" id="c-num-4-8" name="c-num-4-8">
+    <input type="text" value="" id="c-num-4-9" name="c-num-4-9">
+    <input type="text" value="" id="c-num-4-10" name="c-num-4-10">
+    <input type="text" value="" id="c-num-4-11" name="c-num-4-11">
+    <input type="text" value="" id="c-num-4-12" name="c-num-4-12">
+    <input type="text" value="" id="c-num-4-13" name="c-num-4-13">
+    <input type="text" value="" id="c-num-4-14" name="c-num-4-14">
+    <input type="text" value="" id="c-num-4-15" name="c-num-4-15">
+    <input type="text" value="" id="c-num-4-16" name="c-num-4-16">
+    <input type="text" value="" id="c-num-4-17" name="c-num-4-17">
+    <input type="text" value="" id="c-num-4-18" name="c-num-4-18">
+    <input type="text" value="" id="c-num-4-19" name="c-num-4-19">
+    <input type="text" value="" id="c-num-4-20" name="c-num-4-20">
+    <input type="text" value="" id="c-num-4-21" name="c-num-4-21">
+    <input type="text" value="" id="c-num-4-22" name="c-num-4-22">
+    <input type="text" value="" id="c-num-4-23" name="c-num-4-23">
+    <input type="text" value="" id="c-num-4-24" name="c-num-4-24">
+    <input type="text" value="" id="c-num-4-25" name="c-num-4-25">
+    <input type="text" value="" id="c-num-4-26" name="c-num-4-26">
+    <input type="text" value="" id="c-num-4-27" name="c-num-4-27">
+    <input type="text" value="" id="c-num-4-28" name="c-num-4-28">
+    <input type="text" value="" id="c-num-4-29" name="c-num-4-29">
+
+    <input class="first-cell" value="I" type="text" id="c-chord-5" name="c-chord-5">
+    <input type="text" class="next-columns" value="" id="c-num-5-1" name="c-num-5-1">
+    <input type="text" value="" id="c-num-5-2" name="c-num-5-2">
+    <input type="text" value="" id="c-num-5-3" name="c-num-5-3">
+    <input type="text" value="" id="c-num-5-4" name="c-num-5-4">
+    <input type="text" value="" id="c-num-5-5" name="c-num-5-5">
+    <input type="text" value="" id="c-num-5-6" name="c-num-5-6">
+    <input type="text" value="" id="c-num-5-7" name="c-num-5-7">
+    <input type="text" value="" id="c-num-5-8" name="c-num-5-8">
+    <input type="text" value="" id="c-num-5-9" name="c-num-5-9">
+    <input type="text" value="" id="c-num-5-10" name="c-num-5-10">
+    <input type="text" value="" id="c-num-5-11" name="c-num-5-11">
+    <input type="text" value="" id="c-num-5-12" name="c-num-5-12">
+    <input type="text" value="" id="c-num-5-13" name="c-num-5-13">
+    <input type="text" value="" id="c-num-5-14" name="c-num-5-14">
+    <input type="text" value="" id="c-num-5-15" name="c-num-5-15">
+    <input type="text" value="" id="c-num-5-16" name="c-num-5-16">
+    <input type="text" value="" id="c-num-5-17" name="c-num-5-17">
+    <input type="text" value="" id="c-num-5-18" name="c-num-5-18">
+    <input type="text" value="" id="c-num-5-19" name="c-num-5-19">
+    <input type="text" value="" id="c-num-5-20" name="c-num-5-20">
+    <input type="text" value="" id="c-num-5-21" name="c-num-5-21">
+    <input type="text" value="" id="c-num-5-22" name="c-num-5-22">
+    <input type="text" value="" id="c-num-5-23" name="c-num-5-23">
+    <input type="text" value="" id="c-num-5-24" name="c-num-5-24">
+    <input type="text" value="" id="c-num-5-25" name="c-num-5-25">
+    <input type="text" value="" id="c-num-5-26" name="c-num-5-26">
+    <input type="text" value="" id="c-num-5-27" name="c-num-5-27">
+    <input type="text" value="" id="c-num-5-28" name="c-num-5-28">
+    <input type="text" value="" id="c-num-5-29" name="c-num-5-29">
+
+    <input class="first-cell" value="VIIt" type="text" id="c-chord-6" name="c-chord-6">
+    <input type="text" class="next-columns" value="" id="c-num-6-1" name="c-num-6-1">
+    <input type="text" value="" id="c-num-6-2" name="c-num-6-2">
+    <input type="text" value="" id="c-num-6-3" name="c-num-6-3">
+    <input type="text" value="" id="c-num-6-4" name="c-num-6-4">
+    <input type="text" value="" id="c-num-6-5" name="c-num-6-5">
+    <input type="text" value="" id="c-num-6-6" name="c-num-6-6">
+    <input type="text" value="" id="c-num-6-7" name="c-num-6-7">
+    <input type="text" value="" id="c-num-6-8" name="c-num-6-8">
+    <input type="text" value="" id="c-num-6-9" name="c-num-6-9">
+    <input type="text" value="" id="c-num-6-10" name="c-num-6-10">
+    <input type="text" value="" id="c-num-6-11" name="c-num-6-11">
+    <input type="text" value="" id="c-num-6-12" name="c-num-6-12">
+    <input type="text" value="" id="c-num-6-13" name="c-num-6-13">
+    <input type="text" value="" id="c-num-6-14" name="c-num-6-14">
+    <input type="text" value="" id="c-num-6-15" name="c-num-6-15">
+    <input type="text" value="" id="c-num-6-16" name="c-num-6-16">
+    <input type="text" value="" id="c-num-6-17" name="c-num-6-17">
+    <input type="text" value="" id="c-num-6-18" name="c-num-6-18">
+    <input type="text" value="" id="c-num-6-19" name="c-num-6-19">
+    <input type="text" value="" id="c-num-6-20" name="c-num-6-20">
+    <input type="text" value="" id="c-num-6-21" name="c-num-6-21">
+    <input type="text" value="" id="c-num-6-22" name="c-num-6-22">
+    <input type="text" value="" id="c-num-6-23" name="c-num-6-23">
+    <input type="text" value="" id="c-num-6-24" name="c-num-6-24">
+    <input type="text" value="" id="c-num-6-25" name="c-num-6-25">
+    <input type="text" value="" id="c-num-6-26" name="c-num-6-26">
+    <input type="text" value="" id="c-num-6-27" name="c-num-6-27">
+    <input type="text" value="" id="c-num-6-28" name="c-num-6-28">
+    <input type="text" value="" id="c-num-6-29" name="c-num-6-29">
+
+    <input class="first-cell" value="VI" type="text" id="c-chord-7" name="c-chord-7">
+    <input type="text" class="next-columns" value="" id="c-num-7-1" name="c-num-7-1">
+    <input type="text" value="" id="c-num-7-2" name="c-num-7-2">
+    <input type="text" value="" id="c-num-7-3" name="c-num-7-3">
+    <input type="text" value="" id="c-num-7-4" name="c-num-7-4">
+    <input type="text" value="" id="c-num-7-5" name="c-num-7-5">
+    <input type="text" value="" id="c-num-7-6" name="c-num-7-6">
+    <input type="text" value="" id="c-num-7-7" name="c-num-7-7">
+    <input type="text" value="" id="c-num-7-8" name="c-num-7-8">
+    <input type="text" value="" id="c-num-7-9" name="c-num-7-9">
+    <input type="text" value="" id="c-num-7-10" name="c-num-7-10">
+    <input type="text" value="" id="c-num-7-11" name="c-num-7-11">
+    <input type="text" value="" id="c-num-7-12" name="c-num-7-12">
+    <input type="text" value="" id="c-num-7-13" name="c-num-7-13">
+    <input type="text" value="" id="c-num-7-14" name="c-num-7-14">
+    <input type="text" value="" id="c-num-7-15" name="c-num-7-15">
+    <input type="text" value="" id="c-num-7-16" name="c-num-7-16">
+    <input type="text" value="" id="c-num-7-17" name="c-num-7-17">
+    <input type="text" value="" id="c-num-7-18" name="c-num-7-18">
+    <input type="text" value="" id="c-num-7-19" name="c-num-7-19">
+    <input type="text" value="" id="c-num-7-20" name="c-num-7-20">
+    <input type="text" value="" id="c-num-7-21" name="c-num-7-21">
+    <input type="text" value="" id="c-num-7-22" name="c-num-7-22">
+    <input type="text" value="" id="c-num-7-23" name="c-num-7-23">
+    <input type="text" value="" id="c-num-7-24" name="c-num-7-24">
+    <input type="text" value="" id="c-num-7-25" name="c-num-7-25">
+    <input type="text" value="" id="c-num-7-26" name="c-num-7-26">
+    <input type="text" value="" id="c-num-7-27" name="c-num-7-27">
+    <input type="text" value="" id="c-num-7-28" name="c-num-7-28">
+    <input type="text" value="" id="c-num-7-29" name="c-num-7-29">
+
+    <input class="first-cell" value="II" type="text" id="c-chord-8" name="c-chord-8">
+    <input type="text" class="next-columns" value="" id="c-num-8-1" name="c-num-8-1">
+    <input type="text" value="" id="c-num-8-2" name="c-num-8-2">
+    <input type="text" value="" id="c-num-8-3" name="c-num-8-3">
+    <input type="text" value="" id="c-num-8-4" name="c-num-8-4">
+    <input type="text" value="" id="c-num-8-5" name="c-num-8-5">
+    <input type="text" value="" id="c-num-8-6" name="c-num-8-6">
+    <input type="text" value="" id="c-num-8-7" name="c-num-8-7">
+    <input type="text" value="" id="c-num-8-8" name="c-num-8-8">
+    <input type="text" value="" id="c-num-8-9" name="c-num-8-9">
+    <input type="text" value="" id="c-num-8-10" name="c-num-8-10">
+    <input type="text" value="" id="c-num-8-11" name="c-num-8-11">
+    <input type="text" value="" id="c-num-8-12" name="c-num-8-12">
+    <input type="text" value="" id="c-num-8-13" name="c-num-8-13">
+    <input type="text" value="" id="c-num-8-14" name="c-num-8-14">
+    <input type="text" value="" id="c-num-8-15" name="c-num-8-15">
+    <input type="text" value="" id="c-num-8-16" name="c-num-8-16">
+    <input type="text" value="" id="c-num-8-17" name="c-num-8-17">
+    <input type="text" value="" id="c-num-8-18" name="c-num-8-18">
+    <input type="text" value="" id="c-num-8-19" name="c-num-8-19">
+    <input type="text" value="" id="c-num-8-20" name="c-num-8-20">
+    <input type="text" value="" id="c-num-8-21" name="c-num-8-21">
+    <input type="text" value="" id="c-num-8-22" name="c-num-8-22">
+    <input type="text" value="" id="c-num-8-23" name="c-num-8-23">
+    <input type="text" value="" id="c-num-8-24" name="c-num-8-24">
+    <input type="text" value="" id="c-num-8-25" name="c-num-8-25">
+    <input type="text" value="" id="c-num-8-26" name="c-num-8-26">
+    <input type="text" value="" id="c-num-8-27" name="c-num-8-27">
+    <input type="text" value="" id="c-num-8-28" name="c-num-8-28">
+    <input type="text" value="" id="c-num-8-29" name="c-num-8-29">
+
+    <input class="first-cell" value="V" type="text" id="c-chord-9" name="c-chord-9">
+    <input type="text" class="next-columns" value="" id="c-num-9-1" name="c-num-9-1">
+    <input type="text" value="" id="c-num-9-2" name="c-num-9-2">
+    <input type="text" value="" id="c-num-9-3" name="c-num-9-3">
+    <input type="text" value="" id="c-num-9-4" name="c-num-9-4">
+    <input type="text" value="" id="c-num-9-5" name="c-num-9-5">
+    <input type="text" value="" id="c-num-9-6" name="c-num-9-6">
+    <input type="text" value="" id="c-num-9-7" name="c-num-9-7">
+    <input type="text" value="" id="c-num-9-8" name="c-num-9-8">
+    <input type="text" value="" id="c-num-9-9" name="c-num-9-9">
+    <input type="text" value="" id="c-num-9-10" name="c-num-9-10">
+    <input type="text" value="" id="c-num-9-11" name="c-num-9-11">
+    <input type="text" value="" id="c-num-9-12" name="c-num-9-12">
+    <input type="text" value="" id="c-num-9-13" name="c-num-9-13">
+    <input type="text" value="" id="c-num-9-14" name="c-num-9-14">
+    <input type="text" value="" id="c-num-9-15" name="c-num-9-15">
+    <input type="text" value="" id="c-num-9-16" name="c-num-9-16">
+    <input type="text" value="" id="c-num-9-17" name="c-num-9-17">
+    <input type="text" value="" id="c-num-9-18" name="c-num-9-18">
+    <input type="text" value="" id="c-num-9-19" name="c-num-9-19">
+    <input type="text" value="" id="c-num-9-20" name="c-num-9-20">
+    <input type="text" value="" id="c-num-9-21" name="c-num-9-21">
+    <input type="text" value="" id="c-num-9-22" name="c-num-9-22">
+    <input type="text" value="" id="c-num-9-23" name="c-num-9-23">
+    <input type="text" value="" id="c-num-9-24" name="c-num-9-24">
+    <input type="text" value="" id="c-num-9-25" name="c-num-9-25">
+    <input type="text" value="" id="c-num-9-26" name="c-num-9-26">
+    <input type="text" value="" id="c-num-9-27" name="c-num-9-27">
+    <input type="text" value="" id="c-num-9-28" name="c-num-9-28">
+    <input type="text" value="" id="c-num-9-29" name="c-num-9-29">
+
+    <input class="first-cell" value="I" type="text" id="c-chord-10" name="c-chord-10">
+    <input type="text" class="next-columns" value="" id="c-num-10-1" name="c-num-10-1">
+    <input type="text" value="" id="c-num-10-2" name="c-num-10-2">
+    <input type="text" value="" id="c-num-10-3" name="c-num-10-3">
+    <input type="text" value="" id="c-num-10-4" name="c-num-10-4">
+    <input type="text" value="" id="c-num-10-5" name="c-num-10-5">
+    <input type="text" value="" id="c-num-10-6" name="c-num-10-6">
+    <input type="text" value="" id="c-num-10-7" name="c-num-10-7">
+    <input type="text" value="" id="c-num-10-8" name="c-num-10-8">
+    <input type="text" value="" id="c-num-10-9" name="c-num-10-9">
+    <input type="text" value="" id="c-num-10-10" name="c-num-10-10">
+    <input type="text" value="" id="c-num-10-11" name="c-num-10-11">
+    <input type="text" value="" id="c-num-10-12" name="c-num-10-12">
+    <input type="text" value="" id="c-num-10-13" name="c-num-10-13">
+    <input type="text" value="" id="c-num-10-14" name="c-num-10-14">
+    <input type="text" value="" id="c-num-10-15" name="c-num-10-15">
+    <input type="text" value="" id="c-num-10-16" name="c-num-10-16">
+    <input type="text" value="" id="c-num-10-17" name="c-num-10-17">
+    <input type="text" value="" id="c-num-10-18" name="c-num-10-18">
+    <input type="text" value="" id="c-num-10-19" name="c-num-10-19">
+    <input type="text" value="" id="c-num-10-20" name="c-num-10-20">
+    <input type="text" value="" id="c-num-10-21" name="c-num-10-21">
+    <input type="text" value="" id="c-num-10-22" name="c-num-10-22">
+    <input type="text" value="" id="c-num-10-23" name="c-num-10-23">
+    <input type="text" value="" id="c-num-10-24" name="c-num-10-24">
+    <input type="text" value="" id="c-num-10-25" name="c-num-10-25">
+    <input type="text" value="" id="c-num-10-26" name="c-num-10-26">
+    <input type="text" value="" id="c-num-10-27" name="c-num-10-27">
+    <input type="text" value="" id="c-num-10-28" name="c-num-10-28">
+    <input type="text" value="" id="{{letter}}c-num-10-29" name="c-num-10-29">
+
+    <button type="submit" class="btn btn-primary">Chordify It!</button>
+</form>
+
+<form class="container" action="{{ url_for('boxes_one', grid_letter='d') }}" method="post">
+    <input class="first-cell" value="VIIt" type="text" id="d-chord-1" name="d-chord-1">
+    <input type="text" class="next-columns" value="" id="d-num-1-1" name="d-num-1-1">
+    <input type="text" value="" id="d-num-1-2" name="d-num-1-2">
+    <input type="text" value="" id="d-num-1-3" name="d-num-1-3">
+    <input type="text" value="" id="d-num-1-4" name="d-num-1-4">
+    <input type="text" value="" id="d-num-1-5" name="d-num-1-5">
+    <input type="text" value="" id="d-num-1-6" name="d-num-1-6">
+    <input type="text" value="" id="d-num-1-7" name="d-num-1-7">
+    <input type="text" value="" id="d-num-1-8" name="d-num-1-8">
+    <input type="text" value="" id="d-num-1-9" name="d-num-1-9">
+    <input type="text" value="" id="d-num-1-10" name="d-num-1-10">
+    <input type="text" value="" id="d-num-1-11" name="d-num-1-11">
+    <input type="text" value="" id="d-num-1-12" name="d-num-1-12">
+    <input type="text" value="" id="d-num-1-13" name="d-num-1-13">
+    <input type="text" value="" id="d-num-1-14" name="d-num-1-14">
+    <input type="text" value="" id="d-num-1-15" name="d-num-1-15">
+    <input type="text" value="" id="d-num-1-16" name="d-num-1-16">
+    <input type="text" value="" id="d-num-1-17" name="d-num-1-17">
+    <input type="text" value="" id="d-num-1-18" name="d-num-1-18">
+    <input type="text" value="" id="d-num-1-19" name="d-num-1-19">
+    <input type="text" value="" id="d-num-1-20" name="d-num-1-20">
+    <input type="text" value="" id="d-num-1-21" name="d-num-1-21">
+    <input type="text" value="" id="d-num-1-22" name="d-num-1-22">
+    <input type="text" value="" id="d-num-1-23" name="d-num-1-23">
+    <input type="text" value="" id="d-num-1-24" name="d-num-1-24">
+    <input type="text" value="" id="d-num-1-25" name="d-num-1-25">
+    <input type="text" value="" id="d-num-1-26" name="d-num-1-26">
+    <input type="text" value="" id="d-num-1-27" name="d-num-1-27">
+    <input type="text" value="" id="d-num-1-28" name="d-num-1-28">
+    <input type="text" value="" id="d-num-1-29" name="d-num-1-29">
+
+    <input class="first-cell" value="VI" type="text" id="d-chord-2" name="d-chord-2">
+    <input type="text" class="next-columns" value="" id="d-num-2-1" name="d-num-2-1">
+    <input type="text" value="" id="d-num-2-2" name="d-num-2-2">
+    <input type="text" value="" id="d-num-2-3" name="d-num-2-3">
+    <input type="text" value="" id="d-num-2-4" name="d-num-2-4">
+    <input type="text" value="" id="d-num-2-5" name="d-num-2-5">
+    <input type="text" value="" id="d-num-2-6" name="d-num-2-6">
+    <input type="text" value="" id="d-num-2-7" name="d-num-2-7">
+    <input type="text" value="" id="d-num-2-8" name="d-num-2-8">
+    <input type="text" value="" id="d-num-2-9" name="d-num-2-9">
+    <input type="text" value="" id="d-num-2-10" name="d-num-2-10">
+    <input type="text" value="" id="d-num-2-11" name="d-num-2-11">
+    <input type="text" value="" id="d-num-2-12" name="d-num-2-12">
+    <input type="text" value="" id="d-num-2-13" name="d-num-2-13">
+    <input type="text" value="" id="d-num-2-14" name="d-num-2-14">
+    <input type="text" value="" id="d-num-2-15" name="d-num-2-15">
+    <input type="text" value="" id="d-num-2-16" name="d-num-2-16">
+    <input type="text" value="" id="d-num-2-17" name="d-num-2-17">
+    <input type="text" value="" id="d-num-2-18" name="d-num-2-18">
+    <input type="text" value="" id="d-num-2-19" name="d-num-2-19">
+    <input type="text" value="" id="d-num-2-20" name="d-num-2-20">
+    <input type="text" value="" id="d-num-2-21" name="d-num-2-21">
+    <input type="text" value="" id="d-num-2-22" name="d-num-2-22">
+    <input type="text" value="" id="d-num-2-23" name="d-num-2-23">
+    <input type="text" value="" id="d-num-2-24" name="d-num-2-24">
+    <input type="text" value="" id="d-num-2-25" name="d-num-2-25">
+    <input type="text" value="" id="d-num-2-26" name="d-num-2-26">
+    <input type="text" value="" id="d-num-2-27" name="d-num-2-27">
+    <input type="text" value="" id="d-num-2-28" name="d-num-2-28">
+    <input type="text" value="" id="d-num-2-29" name="d-num-2-29">
+
+    <input class="first-cell" value="II" type="text" id="d-chord-3" name="d-chord-3">
+    <input type="text" class="d-next-columns" value="" id="d-num-3-1" name="d-num-3-1">
+    <input type="text" value="" id="d-num-3-2" name="d-num-3-2">
+    <input type="text" value="" id="d-num-3-3" name="d-num-3-3">
+    <input type="text" value="" id="d-num-3-4" name="d-num-3-4">
+    <input type="text" value="" id="d-num-3-5" name="d-num-3-5">
+    <input type="text" value="" id="d-num-3-6" name="d-num-3-6">
+    <input type="text" value="" id="d-num-3-7" name="d-num-3-7">
+    <input type="text" value="" id="d-num-3-8" name="d-num-3-8">
+    <input type="text" value="" id="d-num-3-9" name="d-num-3-9">
+    <input type="text" value="" id="d-num-3-10" name="d-num-3-10">
+    <input type="text" value="" id="d-num-3-11" name="d-num-3-11">
+    <input type="text" value="" id="d-num-3-12" name="d-num-3-12">
+    <input type="text" value="" id="d-num-3-13" name="d-num-3-13">
+    <input type="text" value="" id="d-num-3-14" name="d-num-3-14">
+    <input type="text" value="" id="d-num-3-15" name="d-num-3-15">
+    <input type="text" value="" id="d-num-3-16" name="d-num-3-16">
+    <input type="text" value="" id="d-num-3-17" name="d-num-3-17">
+    <input type="text" value="" id="d-num-3-18" name="d-num-3-18">
+    <input type="text" value="" id="d-num-3-19" name="d-num-3-19">
+    <input type="text" value="" id="d-num-3-20" name="d-num-3-20">
+    <input type="text" value="" id="d-num-3-21" name="d-num-3-21">
+    <input type="text" value="" id="d-num-3-22" name="d-num-3-22">
+    <input type="text" value="" id="d-num-3-23" name="d-num-3-23">
+    <input type="text" value="" id="d-num-3-24" name="d-num-3-24">
+    <input type="text" value="" id="d-num-3-25" name="d-num-3-25">
+    <input type="text" value="" id="d-num-3-26" name="d-num-3-26">
+    <input type="text" value="" id="d-num-3-27" name="d-num-3-27">
+    <input type="text" value="" id="d-num-3-28" name="d-num-3-28">
+    <input type="text" value="" id="d-num-3-29" name="d-num-3-29">
+
+    <input class="first-cell" value="V" type="text" id="d-chord-4" name="d-chord-4">
+    <input type="text" class="next-columns" value="" id="d-num-4-1" name="d-num-4-1">
+    <input type="text" value="" id="d-num-4-2" name="d-num-4-2">
+    <input type="text" value="" id="d-num-4-3" name="d-num-4-3">
+    <input type="text" value="" id="d-num-4-4" name="d-num-4-4">
+    <input type="text" value="" id="d-num-4-5" name="d-num-4-5">
+    <input type="text" value="" id="d-num-4-6" name="d-num-4-6">
+    <input type="text" value="" id="d-num-4-7" name="d-num-4-7">
+    <input type="text" value="" id="d-num-4-8" name="d-num-4-8">
+    <input type="text" value="" id="d-num-4-9" name="d-num-4-9">
+    <input type="text" value="" id="d-num-4-10" name="d-num-4-10">
+    <input type="text" value="" id="d-num-4-11" name="d-num-4-11">
+    <input type="text" value="" id="d-num-4-12" name="d-num-4-12">
+    <input type="text" value="" id="d-num-4-13" name="d-num-4-13">
+    <input type="text" value="" id="d-num-4-14" name="d-num-4-14">
+    <input type="text" value="" id="d-num-4-15" name="d-num-4-15">
+    <input type="text" value="" id="d-num-4-16" name="d-num-4-16">
+    <input type="text" value="" id="d-num-4-17" name="d-num-4-17">
+    <input type="text" value="" id="d-num-4-18" name="d-num-4-18">
+    <input type="text" value="" id="d-num-4-19" name="d-num-4-19">
+    <input type="text" value="" id="d-num-4-20" name="d-num-4-20">
+    <input type="text" value="" id="d-num-4-21" name="d-num-4-21">
+    <input type="text" value="" id="d-num-4-22" name="d-num-4-22">
+    <input type="text" value="" id="d-num-4-23" name="d-num-4-23">
+    <input type="text" value="" id="d-num-4-24" name="d-num-4-24">
+    <input type="text" value="" id="d-num-4-25" name="d-num-4-25">
+    <input type="text" value="" id="d-num-4-26" name="d-num-4-26">
+    <input type="text" value="" id="d-num-4-27" name="d-num-4-27">
+    <input type="text" value="" id="d-num-4-28" name="d-num-4-28">
+    <input type="text" value="" id="d-num-4-29" name="d-num-4-29">
+
+    <input class="first-cell" value="I" type="text" id="d-chord-5" name="d-chord-5">
+    <input type="text" class="next-columns" value="" id="d-num-5-1" name="d-num-5-1">
+    <input type="text" value="" id="d-num-5-2" name="d-num-5-2">
+    <input type="text" value="" id="d-num-5-3" name="d-num-5-3">
+    <input type="text" value="" id="d-num-5-4" name="d-num-5-4">
+    <input type="text" value="" id="d-num-5-5" name="d-num-5-5">
+    <input type="text" value="" id="d-num-5-6" name="d-num-5-6">
+    <input type="text" value="" id="d-num-5-7" name="d-num-5-7">
+    <input type="text" value="" id="d-num-5-8" name="d-num-5-8">
+    <input type="text" value="" id="d-num-5-9" name="d-num-5-9">
+    <input type="text" value="" id="d-num-5-10" name="d-num-5-10">
+    <input type="text" value="" id="d-num-5-11" name="d-num-5-11">
+    <input type="text" value="" id="d-num-5-12" name="d-num-5-12">
+    <input type="text" value="" id="d-num-5-13" name="d-num-5-13">
+    <input type="text" value="" id="d-num-5-14" name="d-num-5-14">
+    <input type="text" value="" id="d-num-5-15" name="d-num-5-15">
+    <input type="text" value="" id="d-num-5-16" name="d-num-5-16">
+    <input type="text" value="" id="d-num-5-17" name="d-num-5-17">
+    <input type="text" value="" id="d-num-5-18" name="d-num-5-18">
+    <input type="text" value="" id="d-num-5-19" name="d-num-5-19">
+    <input type="text" value="" id="d-num-5-20" name="d-num-5-20">
+    <input type="text" value="" id="d-num-5-21" name="d-num-5-21">
+    <input type="text" value="" id="d-num-5-22" name="d-num-5-22">
+    <input type="text" value="" id="d-num-5-23" name="d-num-5-23">
+    <input type="text" value="" id="d-num-5-24" name="d-num-5-24">
+    <input type="text" value="" id="d-num-5-25" name="d-num-5-25">
+    <input type="text" value="" id="d-num-5-26" name="d-num-5-26">
+    <input type="text" value="" id="d-num-5-27" name="d-num-5-27">
+    <input type="text" value="" id="d-num-5-28" name="d-num-5-28">
+    <input type="text" value="" id="d-num-5-29" name="d-num-5-29">
+
+    <input class="first-cell" value="VIIt" type="text" id="d-chord-6" name="d-chord-6">
+    <input type="text" class="next-columns" value="" id="d-num-6-1" name="d-num-6-1">
+    <input type="text" value="" id="d-num-6-2" name="d-num-6-2">
+    <input type="text" value="" id="d-num-6-3" name="d-num-6-3">
+    <input type="text" value="" id="d-num-6-4" name="d-num-6-4">
+    <input type="text" value="" id="d-num-6-5" name="d-num-6-5">
+    <input type="text" value="" id="d-num-6-6" name="d-num-6-6">
+    <input type="text" value="" id="d-num-6-7" name="d-num-6-7">
+    <input type="text" value="" id="d-num-6-8" name="d-num-6-8">
+    <input type="text" value="" id="d-num-6-9" name="d-num-6-9">
+    <input type="text" value="" id="d-num-6-10" name="d-num-6-10">
+    <input type="text" value="" id="d-num-6-11" name="d-num-6-11">
+    <input type="text" value="" id="d-num-6-12" name="d-num-6-12">
+    <input type="text" value="" id="d-num-6-13" name="d-num-6-13">
+    <input type="text" value="" id="d-num-6-14" name="d-num-6-14">
+    <input type="text" value="" id="d-num-6-15" name="d-num-6-15">
+    <input type="text" value="" id="d-num-6-16" name="d-num-6-16">
+    <input type="text" value="" id="d-num-6-17" name="d-num-6-17">
+    <input type="text" value="" id="d-num-6-18" name="d-num-6-18">
+    <input type="text" value="" id="d-num-6-19" name="d-num-6-19">
+    <input type="text" value="" id="d-num-6-20" name="d-num-6-20">
+    <input type="text" value="" id="d-num-6-21" name="d-num-6-21">
+    <input type="text" value="" id="d-num-6-22" name="d-num-6-22">
+    <input type="text" value="" id="d-num-6-23" name="d-num-6-23">
+    <input type="text" value="" id="d-num-6-24" name="d-num-6-24">
+    <input type="text" value="" id="d-num-6-25" name="d-num-6-25">
+    <input type="text" value="" id="d-num-6-26" name="d-num-6-26">
+    <input type="text" value="" id="d-num-6-27" name="d-num-6-27">
+    <input type="text" value="" id="d-num-6-28" name="d-num-6-28">
+    <input type="text" value="" id="d-num-6-29" name="d-num-6-29">
+
+    <input class="first-cell" value="VI" type="text" id="d-chord-7" name="d-chord-7">
+    <input type="text" class="next-columns" value="" id="d-num-7-1" name="d-num-7-1">
+    <input type="text" value="" id="d-num-7-2" name="d-num-7-2">
+    <input type="text" value="" id="d-num-7-3" name="d-num-7-3">
+    <input type="text" value="" id="d-num-7-4" name="d-num-7-4">
+    <input type="text" value="" id="d-num-7-5" name="d-num-7-5">
+    <input type="text" value="" id="d-num-7-6" name="d-num-7-6">
+    <input type="text" value="" id="d-num-7-7" name="d-num-7-7">
+    <input type="text" value="" id="d-num-7-8" name="d-num-7-8">
+    <input type="text" value="" id="d-num-7-9" name="d-num-7-9">
+    <input type="text" value="" id="d-num-7-10" name="d-num-7-10">
+    <input type="text" value="" id="d-num-7-11" name="d-num-7-11">
+    <input type="text" value="" id="d-num-7-12" name="d-num-7-12">
+    <input type="text" value="" id="d-num-7-13" name="d-num-7-13">
+    <input type="text" value="" id="d-num-7-14" name="d-num-7-14">
+    <input type="text" value="" id="d-num-7-15" name="d-num-7-15">
+    <input type="text" value="" id="d-num-7-16" name="d-num-7-16">
+    <input type="text" value="" id="d-num-7-17" name="d-num-7-17">
+    <input type="text" value="" id="d-num-7-18" name="d-num-7-18">
+    <input type="text" value="" id="d-num-7-19" name="d-num-7-19">
+    <input type="text" value="" id="d-num-7-20" name="d-num-7-20">
+    <input type="text" value="" id="d-num-7-21" name="d-num-7-21">
+    <input type="text" value="" id="d-num-7-22" name="d-num-7-22">
+    <input type="text" value="" id="d-num-7-23" name="d-num-7-23">
+    <input type="text" value="" id="d-num-7-24" name="d-num-7-24">
+    <input type="text" value="" id="d-num-7-25" name="d-num-7-25">
+    <input type="text" value="" id="d-num-7-26" name="d-num-7-26">
+    <input type="text" value="" id="d-num-7-27" name="d-num-7-27">
+    <input type="text" value="" id="d-num-7-28" name="d-num-7-28">
+    <input type="text" value="" id="d-num-7-29" name="d-num-7-29">
+
+    <input class="first-cell" value="II" type="text" id="d-chord-8" name="d-chord-8">
+    <input type="text" class="next-columns" value="" id="d-num-8-1" name="d-num-8-1">
+    <input type="text" value="" id="d-num-8-2" name="d-num-8-2">
+    <input type="text" value="" id="d-num-8-3" name="d-num-8-3">
+    <input type="text" value="" id="d-num-8-4" name="d-num-8-4">
+    <input type="text" value="" id="d-num-8-5" name="d-num-8-5">
+    <input type="text" value="" id="d-num-8-6" name="d-num-8-6">
+    <input type="text" value="" id="d-num-8-7" name="d-num-8-7">
+    <input type="text" value="" id="d-num-8-8" name="d-num-8-8">
+    <input type="text" value="" id="d-num-8-9" name="d-num-8-9">
+    <input type="text" value="" id="d-num-8-10" name="d-num-8-10">
+    <input type="text" value="" id="d-num-8-11" name="d-num-8-11">
+    <input type="text" value="" id="d-num-8-12" name="d-num-8-12">
+    <input type="text" value="" id="d-num-8-13" name="d-num-8-13">
+    <input type="text" value="" id="d-num-8-14" name="d-num-8-14">
+    <input type="text" value="" id="d-num-8-15" name="d-num-8-15">
+    <input type="text" value="" id="d-num-8-16" name="d-num-8-16">
+    <input type="text" value="" id="d-num-8-17" name="d-num-8-17">
+    <input type="text" value="" id="d-num-8-18" name="d-num-8-18">
+    <input type="text" value="" id="d-num-8-19" name="d-num-8-19">
+    <input type="text" value="" id="d-num-8-20" name="d-num-8-20">
+    <input type="text" value="" id="d-num-8-21" name="d-num-8-21">
+    <input type="text" value="" id="d-num-8-22" name="d-num-8-22">
+    <input type="text" value="" id="d-num-8-23" name="d-num-8-23">
+    <input type="text" value="" id="d-num-8-24" name="d-num-8-24">
+    <input type="text" value="" id="d-num-8-25" name="d-num-8-25">
+    <input type="text" value="" id="d-num-8-26" name="d-num-8-26">
+    <input type="text" value="" id="d-num-8-27" name="d-num-8-27">
+    <input type="text" value="" id="d-num-8-28" name="d-num-8-28">
+    <input type="text" value="" id="d-num-8-29" name="d-num-8-29">
+
+    <input class="first-cell" value="V" type="text" id="d-chord-9" name="d-chord-9">
+    <input type="text" class="next-columns" value="" id="d-num-9-1" name="d-num-9-1">
+    <input type="text" value="" id="d-num-9-2" name="d-num-9-2">
+    <input type="text" value="" id="d-num-9-3" name="d-num-9-3">
+    <input type="text" value="" id="d-num-9-4" name="d-num-9-4">
+    <input type="text" value="" id="d-num-9-5" name="d-num-9-5">
+    <input type="text" value="" id="d-num-9-6" name="d-num-9-6">
+    <input type="text" value="" id="d-num-9-7" name="d-num-9-7">
+    <input type="text" value="" id="d-num-9-8" name="d-num-9-8">
+    <input type="text" value="" id="d-num-9-9" name="d-num-9-9">
+    <input type="text" value="" id="d-num-9-10" name="d-num-9-10">
+    <input type="text" value="" id="d-num-9-11" name="d-num-9-11">
+    <input type="text" value="" id="d-num-9-12" name="d-num-9-12">
+    <input type="text" value="" id="d-num-9-13" name="d-num-9-13">
+    <input type="text" value="" id="d-num-9-14" name="d-num-9-14">
+    <input type="text" value="" id="d-num-9-15" name="d-num-9-15">
+    <input type="text" value="" id="d-num-9-16" name="d-num-9-16">
+    <input type="text" value="" id="d-num-9-17" name="d-num-9-17">
+    <input type="text" value="" id="d-num-9-18" name="d-num-9-18">
+    <input type="text" value="" id="d-num-9-19" name="d-num-9-19">
+    <input type="text" value="" id="d-num-9-20" name="d-num-9-20">
+    <input type="text" value="" id="d-num-9-21" name="d-num-9-21">
+    <input type="text" value="" id="d-num-9-22" name="d-num-9-22">
+    <input type="text" value="" id="d-num-9-23" name="d-num-9-23">
+    <input type="text" value="" id="d-num-9-24" name="d-num-9-24">
+    <input type="text" value="" id="d-num-9-25" name="d-num-9-25">
+    <input type="text" value="" id="d-num-9-26" name="d-num-9-26">
+    <input type="text" value="" id="d-num-9-27" name="d-num-9-27">
+    <input type="text" value="" id="d-num-9-28" name="d-num-9-28">
+    <input type="text" value="" id="d-num-9-29" name="d-num-9-29">
+
+    <input class="first-cell" value="I" type="text" id="d-chord-10" name="d-chord-10">
+    <input type="text" class="next-columns" value="" id="d-num-10-1" name="d-num-10-1">
+    <input type="text" value="" id="d-num-10-2" name="d-num-10-2">
+    <input type="text" value="" id="d-num-10-3" name="d-num-10-3">
+    <input type="text" value="" id="d-num-10-4" name="d-num-10-4">
+    <input type="text" value="" id="d-num-10-5" name="d-num-10-5">
+    <input type="text" value="" id="d-num-10-6" name="d-num-10-6">
+    <input type="text" value="" id="d-num-10-7" name="d-num-10-7">
+    <input type="text" value="" id="d-num-10-8" name="d-num-10-8">
+    <input type="text" value="" id="d-num-10-9" name="d-num-10-9">
+    <input type="text" value="" id="d-num-10-10" name="d-num-10-10">
+    <input type="text" value="" id="d-num-10-11" name="d-num-10-11">
+    <input type="text" value="" id="d-num-10-12" name="d-num-10-12">
+    <input type="text" value="" id="d-num-10-13" name="d-num-10-13">
+    <input type="text" value="" id="d-num-10-14" name="d-num-10-14">
+    <input type="text" value="" id="d-num-10-15" name="d-num-10-15">
+    <input type="text" value="" id="d-num-10-16" name="d-num-10-16">
+    <input type="text" value="" id="d-num-10-17" name="d-num-10-17">
+    <input type="text" value="" id="d-num-10-18" name="d-num-10-18">
+    <input type="text" value="" id="d-num-10-19" name="d-num-10-19">
+    <input type="text" value="" id="d-num-10-20" name="d-num-10-20">
+    <input type="text" value="" id="d-num-10-21" name="d-num-10-21">
+    <input type="text" value="" id="d-num-10-22" name="d-num-10-22">
+    <input type="text" value="" id="d-num-10-23" name="d-num-10-23">
+    <input type="text" value="" id="d-num-10-24" name="d-num-10-24">
+    <input type="text" value="" id="d-num-10-25" name="d-num-10-25">
+    <input type="text" value="" id="d-num-10-26" name="d-num-10-26">
+    <input type="text" value="" id="d-num-10-27" name="d-num-10-27">
+    <input type="text" value="" id="d-num-10-28" name="d-num-10-28">
+    <input type="text" value="" id="{{letter}}d-num-10-29" name="d-num-10-29">
 
     <button type="submit" class="btn btn-primary">Chordify It!</button>
 </form>
