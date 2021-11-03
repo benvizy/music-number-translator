@@ -69,10 +69,10 @@ def boxes_one(grid_letter):
 
 
 # This is for testing
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
 
 # This is for the real world!
 # Re-Enter Before You Push!
-# if __name__ == '__main__':
-#     app.run(debug=False, host='0.0.0.0')
+if __name__ == '__main__':
+    app.run(debug=False, host='0.0.0.0')
