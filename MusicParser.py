@@ -15,7 +15,7 @@ class MusicParser:
             'Gt': ['Gt', 'At', 'Bt', 'B', 'Dt', 'Et', 'F'],
             'Dt': ['Dt', 'Et', 'F', 'Gt', 'At', 'Bt', 'C'],
             'At': ['At', 'Bt', 'C', 'Dt', 'Et', 'F', 'G'],
-            'Et': ['Et', 'F', 'G', 'A', 'Bt', 'C', 'D'],
+            'Et': ['Et', 'F', 'G', 'At', 'Bt', 'C', 'D'],
             'F': ['F', 'G', 'A', 'Bt', 'C', 'D', 'E'],
             'A#': ['A#', 'C', 'D', 'D#', 'F', 'G', 'A'],
             'B#': ['C', 'D', 'E', 'F', 'G', 'A', 'B'],
@@ -114,9 +114,16 @@ class MusicParser:
                 note = 'A'
             else:
                 note = self.sharp_notes[self.sharp_notes.index(ref) + 1]
+        if 'tt' in note:
+            ref = note[:2]
+            if note == 'Att':
+                note = 'G'
+            else:
+                note = self.flat_notes[self.flat_notes.index(ref) - 1]
         if '#t' in note or 't#' in note:
             note = note[0]
 
+        # OTHER RANDOM CLEANUPS
         if note == 'B#':
             note = 'C'
         if note == 'Ct':
@@ -126,6 +133,7 @@ class MusicParser:
         if note == 'Ft':
             note = 'E'
 
+        # STYLIZE
         if 't' in note:
             note = note.replace('t', self.flat)
 

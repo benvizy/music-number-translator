@@ -10,8 +10,6 @@
 
 {% block content %}
 
-<h1>Behold!  Every Key!</h1>
-
 {% for key in notes.keys(): %}
     <h1>{{key.replace('t','♭')}}</h1>
     {% for row in notes[key]: %}
